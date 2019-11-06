@@ -1,6 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
   <head>
+    <!-- Title and meta -->
+    <title>Michiel Glibert</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2.0"
+    />
+    <meta
+      name="Description"
+      content="Een website over mijzelf, Michiel Glibert."
+    />
+    <meta name="theme-color" content="#317EFB" />
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+
+    <!-- Scripts -->
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -15,33 +46,21 @@
 
       gtag("config", "UA-137798917-1");
     </script>
-
-    <title>Michiel Glibert</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
   </head>
 
   <body>
     <div class="uk-cover-container uk-height-viewport">
-      <img src="assets/pic.jpg" alt="mountains" uk-cover />
+      <img
+        class="cover"
+        src="assets/pic-hr.jpg"
+        srcset="
+          assets/pic-mr.webp  2044w,
+          assets/pic-hr.webp  2612w,
+          assets/pic-vhr.webp 4088w
+        "
+        alt="Mountains"
+        uk-cover
+      />
       <nav
         class="uk-position-top uk-navbar uk-light  uk-animation-fade"
         uk-navbar
@@ -49,16 +68,36 @@
         <div class="nav uk-navbar-center">
           <ul class="uk-navbar-nav">
             <li class="uk-parent">
-              <a href="#overmijzelf" uk-scroll>Over mijzelf</a>
+              <a
+                href="#overmijzelf"
+                aria-label="Lees meer over mijzelf"
+                uk-scroll
+                >Over mijzelf</a
+              >
             </li>
             <li>
-              <a href="#carriere" uk-scroll>Carrière</a>
+              <a
+                href="#carriere"
+                aria-label="Lees meer over mijn carriere"
+                uk-scroll
+                >Carrière</a
+              >
             </li>
             <li>
-              <a href="#projecten" uk-scroll>Projecten</a>
+              <a
+                href="#projecten"
+                aria-label="Lees meer over mijn projecten"
+                uk-scroll
+                >Projecten</a
+              >
             </li>
             <li>
-              <a href="#aanbod" uk-scroll>Aanbod</a>
+              <a
+                href="#aanbod"
+                aria-label="Lees meer over mijn aanbod"
+                uk-scroll
+                >Aanbod</a
+              >
             </li>
           </ul>
         </div>
@@ -71,7 +110,7 @@
           <div>
             <h1 class="uk-text-center ik">Hi!</h1>
             <h1 class="title uk-text-lead uk-text-center">Michiel Glibert</h1>
-            <div class="uk-text-uppercase uk-text-meta uk-text-center">
+            <div class="subtitle uk-text-uppercase uk-text-center">
               Developer
             </div>
           </div>
@@ -80,6 +119,7 @@
           class="uk-light uk-flex uk-flex-center uk-animation-slide-bottom-medium"
         >
           <a
+            aria-label="Lees meer over mijzelf"
             href="#overmijzelf"
             uk-icon="icon: chevron-down; ratio: 5"
             uk-scroll
@@ -111,14 +151,21 @@
         <div class="uk-card uk-card-default uk-card-body uk-text-center">
           <h3 class="uk-card-title">Carrière</h3>
           <div class="timeline">
-		  <div class="entry">
+            <div class="entry">
               <div class="title">
                 <h3>2019 - ...</h3>
                 <p>Universiteit Gent</p>
               </div>
               <div class="body">
                 Ik volg momenteel de masteropleiding Industrieel Ingenieur:
-                Informatica aan de <a href="https://www.ugent.be/nl" target="_blank">UGent</a>.
+                Informatica aan de
+                <a
+                  href="https://www.ugent.be/nl"
+                  aria-label="ink naar de website van Universiteit Gent"
+                  rel="noopener"
+                  target="_blank"
+                  >UGent</a
+                >.
               </div>
             </div>
             <div class="entry">
@@ -127,9 +174,17 @@
                 <p>Universiteit Gent</p>
               </div>
               <div class="body">
-                In 2019 heb ik met succes het schakelprogramma naar Industrieel Ingenieur: Informatica
-				aan de <a href="https://www.ugent.be/nl" target="_blank">UGent</a> afgewerkt.
-                Hiermee kon ik rechtstreeks doorstromen naar het masterprogramma.
+                In 2019 heb ik met succes het schakelprogramma naar Industrieel
+                Ingenieur: Informatica aan de
+                <a
+                  href="https://www.ugent.be/nl"
+                  aria-label="Link naar de website van Universiteit Gent"
+                  rel="noopener"
+                  target="_blank"
+                  >UGent</a
+                >
+                afgewerkt. Hiermee kon ik rechtstreeks doorstromen naar het
+                masterprogramma.
               </div>
             </div>
             <div class="entry">
@@ -140,7 +195,13 @@
               <div class="body">
                 Om mijn opleiding toegepaste informatica met succes te kunnen
                 afronden heb ik mijn stage gedaan bij het jonge eSports bedrijf
-                <a href="https://www.kayzr.com/" target="_blank">Kayzr</a>.
+                <a
+                  href="https://www.kayzr.com/"
+                  aria-label="Link naar de website van Kayzr"
+                  rel="noopener"
+                  target="_blank"
+                  >Kayzr</a
+                >.
               </div>
             </div>
             <div class="entry">
@@ -151,7 +212,11 @@
               <div class="body">
                 Ik heb in 2018 met succes de opleiding Toegepaste Informatica
                 aan de
-                <a href="https://www.hogent.be/" target="_blank"
+                <a
+                  href="https://www.hogent.be/"
+                  aria-label="Link naar de wesite van Hogeschool Gent"
+                  rel="noopener"
+                  target="_blank"
                   >Hogeschool Gent</a
                 >
                 kunnen afronden.
@@ -164,8 +229,14 @@
               </div>
               <div class="body">
                 Na het succesvol afronden van mijn 2 weken stage bij
-                <a href="https://www.ispc.be/nl" target="_blank">ISPC</a> Gent
-                en een voldoende te behalen op mijn eindwerk ben ik in 2015
+                <a
+                  href="https://www.ispc.be/nl"
+                  aria-label="Link naar de website van ISPC"
+                  rel="noopener"
+                  target="_blank"
+                  >ISPC</a
+                >
+                Gent en een voldoende te behalen op mijn eindwerk ben ik in 2015
                 afgestudeerd in de richting TSO Handel
               </div>
             </div>
@@ -186,7 +257,12 @@
                 <tr>
                   <td>
                     <h4>
-                      <a href="https://solomonelections.com/" target="_blank">
+                      <a
+                        href="https://solomonelections.com/"
+                        aria-label="Link naar de Solomon elections website"
+                        rel="noopener"
+                        target="_blank"
+                      >
                         Solomon Elections
                       </a>
                     </h4>
@@ -201,22 +277,26 @@
                 <tr>
                   <td>
                     <h4>
-                      <a href="https://revive.app/" target="_blank">
-                        Revive
-                      </a>
+                      Revive
                     </h4>
                   </td>
                   <td>
                     <p>
                       Een project die het verkopen van 2de hands spullen
-                      eenvoudiger en meer vertrouwbaar moet maken.
+                      eenvoudiger en meer vertrouwbaar moet maken. Deze website
+                      is helaas offline.
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <h4>
-                      <a href="https://revive.app/" target="_blank">
+                      <a
+                        aria-label="Link naar surveymaster"
+                        href="https://surveyymaster.herokuapp.com/"
+                        rel="noopener"
+                        target="_blank"
+                      >
                         Survey master
                       </a>
                     </h4>
@@ -234,9 +314,19 @@
           <div class="slideshow" uk-slideshow>
             <div class="uk-position-relative uk-visible-toggle uk-light">
               <ul class="uk-slideshow-items">
-                <a href="https://solomonelections.com/" target="_blank">
-                  <li>
-                    <img src="./assets/solomon.png" alt="" uk-cover />
+                <li>
+                  <a
+                    href="https://solomonelections.com/"
+                    aria-label="Link naar de Solomon elections website"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    <img
+                      src="./assets/solomon-mr.png"
+                      srcset="./assets/solomon-mr.webp"
+                      alt=""
+                      uk-cover
+                    />
                     <div
                       class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
                     >
@@ -248,29 +338,42 @@
                         Solomoneilanden heeft ondersteund.
                       </p>
                     </div>
-                  </li>
-                </a>
+                  </a>
+                </li>
 
-                <a href="https://revive.app/" target="_blank">
-                  <li>
-                    <img src="./assets/revive.png" alt="" uk-cover />
-                    <div
-                      class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
-                    >
-                      <h3 class="uk-margin-remove">
-                        Revive
-                      </h3>
-                      <p class="uk-margin-remove">
-                        Een project die het verkopen van 2de hands spullen
-                        eenvoudiger en meer vertrouwbaar moet maken.
-                      </p>
-                    </div>
-                  </li>
-                </a>
+                <li>
+                  <img
+                    src="./assets/revive-mr.png"
+                    srcset="./assets/revive-mr.webp"
+                    alt=""
+                    uk-cover
+                  />
+                  <div
+                    class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
+                  >
+                    <h3 class="uk-margin-remove">
+                      Revive
+                    </h3>
+                    <p class="uk-margin-remove">
+                      Een project die het verkopen van 2de hands spullen
+                      eenvoudiger en meer vertrouwbaar moet maken.
+                    </p>
+                  </div>
+                </li>
 
-                <a href="https://surveyymaster.herokuapp.com/" target="_blank">
-                  <li>
-                    <img src="./assets/surveymaster.png" alt="" uk-cover />
+                <li>
+                  <a
+                    href="https://surveyymaster.herokuapp.com/"
+                    aria-label="Link naar surveymaster"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    <img
+                      src="./assets/surveymaster-mr.png"
+                      srcset="./assets/surveymaster-mr.webp"
+                      alt=""
+                      uk-cover
+                    />
                     <div
                       class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom"
                     >
@@ -280,17 +383,19 @@
                         heeft om korte vragen te beantwoorden.
                       </p>
                     </div>
-                  </li>
-                </a>
+                  </a>
+                </li>
               </ul>
 
               <a
+                aria-label="Vorige slide"
                 class="uk-position-center-left uk-position-small uk-hidden-hover"
                 href="#"
                 uk-slidenav-previous
                 uk-slideshow-item="previous"
               ></a>
               <a
+                aria-label="Volgende slide"
                 class="uk-position-center-right uk-position-small uk-hidden-hover"
                 href="#"
                 uk-slidenav-next
@@ -397,6 +502,7 @@
               <div class="uk-tile uk-tile-primary uk-padding-remove">
                 <a
                   href="https://www.linkedin.com/in/michielglibert/"
+                  rel="noopener"
                   target="_blank"
                   class="tile uk-h4"
                 >
@@ -409,6 +515,7 @@
               <div class="uk-tile uk-tile-secondary uk-padding-remove">
                 <a
                   href="https://github.com/michielglibert"
+                  rel="noopener"
                   target="_blank"
                   class="tile uk-h4"
                 >
