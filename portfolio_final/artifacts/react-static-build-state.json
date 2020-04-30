@@ -13,6 +13,7 @@
   "preloadPollInterval": 300,
   "productionSourceMaps": false,
   "entry": "index.js",
+  "silent": true,
   "extractCssChunks": true,
   "siteRoot": "https://michiel.me",
   "plugins": [

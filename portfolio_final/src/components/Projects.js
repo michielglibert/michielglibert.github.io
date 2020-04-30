@@ -93,7 +93,7 @@ export class Projects extends Component {
 			{
 				title: "Solomon Elections",
 				description: `Met dit project werd een online platform ontwikkeld waarmee inwoners van de Solomoneilanden eenvoudig de plaats konden terugvinden waar zij konden stemmen.
-				 Als een land dat nog volop in ontwikkeling is, was dit een grote hulp geweest voor de lokale verkiezingen van 2019.
+				 Voor een land dat nog volop in ontwikkeling is, was dit een grote hulp voor de lokale verkiezingen van 2019.
 				 Daarnaast bood het platform ook de resultaten aan van de voorgaande verkiezingen. 
 				 Deze applicatie werd ontwikkeld tijdens mijn schakeljaar als opdracht voor het opleidingsonderdeel Project.
 				 Hierbij hebben 4 andere groepsleden en ik deze applicatie vanaf 0 op 8 weken tijd ontwikkeld.
@@ -106,7 +106,7 @@ export class Projects extends Component {
 				title: "Survey Master",
 				description: `Survey master is een klein project dat werd ontwikkeld voor het vak Webapps in het laatste jaar van mijn bachelor.
 					 Het doel hiervan was om louter mijn capaciteiten met Javascript frameworks te kunnen aantonen, wat aardig gelukt was.
-					 Met de applicatie kan een nieuwe account worden aangemaakt en vervolgens geantwoord worden op korte vragen.
+					 Met de applicatie kan een nieuw account worden aangemaakt en vervolgens geantwoord worden op korte vragen.
 					 Hierbij kan dan de verdeling gezien worden van wat andere gebruikers als antwoord gaven.
 					 Er kunnen zelf ook vragen worden toegevoegd inclusief comments en likes 👍
 				 `,

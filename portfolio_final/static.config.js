@@ -13,11 +13,26 @@ export default {
 			<Head>
 				<meta charSet="UTF-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<head>
+					<div
+						id="loadOverlay"
+						style={{
+							backgroundColor: "#FFFFFF",
+							position: "absolute",
+							top: "0px",
+							left: "0px",
+							width: "100%",
+							height: "100%",
+							zIndex: "2000",
+						}}
+					></div>
+				</head>
 				<title>Michiel Glibert</title>
 			</Head>
 			<Body>{children}</Body>
 		</Html>
 	),
+	silent: true,
 	extractCssChunks: true,
 	minLoadTime: 200,
 	siteRoot: "https://michiel.me/",

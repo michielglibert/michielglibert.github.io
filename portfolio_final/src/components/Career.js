@@ -57,7 +57,7 @@ export class Career extends Component {
 							Open voor opportuniteiten
 						</Title>
 						<p>
-							Ik ben momenteel opzoek naar een job in de IT bij voorkeur in web
+							Ik ben momenteel opzoek naar een job in de IT, bij voorkeur in web
 							en mobile development
 						</p>
 					</VerticalTimelineElement>
