@@ -9,7 +9,7 @@ import Img from "react-image";
 const Wrapper = styled.div`
 	height: 100vh;
 	width: 100%;
-	background-image: url(${mountains});
+	/*background-image: url(${mountains});*/
 	background-size: cover;
 	@media screen and (max-height: 700px) {
 		min-height: 700px;
