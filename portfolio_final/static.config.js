@@ -24,10 +24,10 @@ export default {
 	siteRoot: "https://michiel.me/",
 	maxThreads: 1, // Remove this when you start doing any static generation
 	plugins: [
+		"react-static-plugin-styled-components",
 		[
 			"react-static-plugin-favicons",
 			{ inputFile: path.resolve(__dirname + "/favicon", "favicon.png") },
-			"react-static-plugin-styled-components",
 		],
 	],
 	inlineCss: true,

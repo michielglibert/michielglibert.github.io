@@ -938,7 +938,7 @@ function Intro_templateObject2() {
 }
 
 function Intro_templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n\theight: 100vh;\n\twidth: 100%;\n\t/*background-image: url(", ");*/\n\tbackground-size: cover;\n\t@media screen and (max-height: 700px) {\n\t\tmin-height: 700px;\n\t}\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\theight: 100vh;\n\twidth: 100%;\n\tbackground-image: url(", ");\n\tbackground-size: cover;\n\t@media screen and (max-height: 700px) {\n\t\tmin-height: 700px;\n\t}\n"]);
 
   Intro_templateObject = function _templateObject() {
     return data;
@@ -2251,6 +2251,10 @@ __webpack_require__.r(__webpack_exports__);
 // Imports
 // Plugins
 var plugins = [{
+  location: "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/node_modules/react-static-plugin-styled-components",
+  plugins: [],
+  hooks: {}
+}, {
   location: "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/node_modules/react-static-plugin-favicons",
   plugins: [],
   hooks: {}

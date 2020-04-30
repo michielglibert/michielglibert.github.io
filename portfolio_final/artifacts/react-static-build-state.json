@@ -17,12 +17,12 @@
   "extractCssChunks": true,
   "siteRoot": "https://michiel.me",
   "plugins": [
+    "react-static-plugin-styled-components",
     [
       "react-static-plugin-favicons",
       {
         "inputFile": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/favicon/favicon.png"
-      },
-      "react-static-plugin-styled-components"
+      }
     ],
     "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final"
   ],
