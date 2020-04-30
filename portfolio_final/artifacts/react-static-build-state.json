@@ -1,0 +1,59 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": 1,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "siteRoot": "https://michiel.me",
+  "plugins": [
+    [
+      "react-static-plugin-favicons",
+      {
+        "inputFile": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/favicon.png"
+      }
+    ],
+    "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final"
+  ],
+  "paths": {
+    "ROOT": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final",
+    "SRC": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/src",
+    "DIST": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/dist",
+    "ASSETS": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/dist",
+    "PLUGINS": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/plugins",
+    "TEMP": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/tmp",
+    "ARTIFACTS": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/artifacts",
+    "PUBLIC": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/public",
+    "NODE_MODULES": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/node_modules",
+    "EXCLUDE_MODULES": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/node_modules",
+    "PACKAGE": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/package.json",
+    "HTML_TEMPLATE": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/dist/index.html",
+    "STATIC_DATA": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/dist/staticData"
+  },
+  "basePath": "",
+  "publicPath": "https://michiel.me/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

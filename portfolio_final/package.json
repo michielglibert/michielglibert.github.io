@@ -1,0 +1,47 @@
+{
+  "name": "react-static-example-blank",
+  "private": true,
+  "scripts": {
+    "start": "react-static start",
+    "stage": "react-static build --staging",
+    "build": "react-static build",
+    "analyze": "react-static build --analyze",
+    "serve": "serve dist -p 3000"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@reach/router": "^1.2.1",
+    "aos": "^2.3.4",
+    "axios": "^0.19.0",
+    "circular-std": "^1.0.4",
+    "classnames": "^2.2.6",
+    "emoji-dictionary": "^1.0.10",
+    "lodash": "^4.17.15",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-image": "^2.4.0",
+    "react-intersection-observer": "^8.26.2",
+    "react-markdown": "^4.3.1",
+    "react-scroll": "^1.7.16",
+    "react-static": "^7.2.0",
+    "react-static-plugin-favicons": "^2.0.0",
+    "react-static-plugin-reach-router": "^7.2.0",
+    "react-static-plugin-sitemap": "^7.2.0",
+    "react-static-plugin-source-filesystem": "^7.2.0",
+    "react-transition-group": "^4.3.0",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-react-app": "^5.0.1",
+    "eslint-config-react-tools": "^1.1.7",
+    "eslint-plugin-flowtype": "^4.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "2.0.5",
+    "serve": "^11.1.0"
+  },
+  "pre-push": []
+}

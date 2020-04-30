@@ -1,0 +1,56 @@
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+html {
+  min-width: 300px;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "CircularStd", sans-serif;
+}
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.example-exit {
+  opacity: 1;
+}
+
+.example-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 14pt;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 24pt;
+  }
+  h2 {
+    font-size: 22pt;
+  }
+
+  h3 {
+    font-size: 16pt;
+  }
+
+  h4 {
+    font-size: 14pt;
+  }
+
+  p {
+    font-size: 12pt;
+  }
+}
