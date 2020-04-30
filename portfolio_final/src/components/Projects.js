@@ -83,7 +83,7 @@ const ProjectImage = styled(Img)`
 	max-width: 100%;
 	margin: 16px;
 	@media screen and (max-width: 1200px) {
-		margin: 0 16px;
+		margin: 0;
 	}
 `;
 

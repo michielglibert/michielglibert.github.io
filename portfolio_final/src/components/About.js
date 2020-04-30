@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import laptop from "../static/lappy.jpg";
-import ReactMarkdown from "react-markdown";
+import Img from "react-image";
 
 const Wrapper = styled.div`
 	display: flex;
@@ -30,7 +30,7 @@ const TextWrapper = styled.div`
 	}
 `;
 
-const SideImage = styled.img`
+const SideImage = styled(Img)`
 	height: 100%;
 	width: 100%;
 	border-radius: 6px;

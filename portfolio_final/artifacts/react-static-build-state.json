@@ -13,6 +13,7 @@
   "preloadPollInterval": 300,
   "productionSourceMaps": false,
   "entry": "index.js",
+  "extractCssChunks": true,
   "siteRoot": "https://michiel.me",
   "plugins": [
     [
@@ -23,6 +24,7 @@
     ],
     "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final"
   ],
+  "inlineCss": true,
   "paths": {
     "ROOT": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final",
     "SRC": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/src",
@@ -41,8 +43,6 @@
   "basePath": "",
   "publicPath": "https://michiel.me/",
   "assetsPath": "",
-  "extractCssChunks": false,
-  "inlineCss": false,
   "babelExcludes": [],
   "devServer": {
     "host": "localhost",
