@@ -13,7 +13,7 @@
   "preloadPollInterval": 300,
   "productionSourceMaps": false,
   "entry": "index.js",
-  "siteRoot": "https://michielglibert.github.io",
+  "siteRoot": "https://michiel.me",
   "plugins": [
     [
       "react-static-plugin-favicons",
@@ -39,7 +39,7 @@
     "STATIC_DATA": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/dist/staticData"
   },
   "basePath": "",
-  "publicPath": "https://michielglibert.github.io/",
+  "publicPath": "https://michiel.me/",
   "assetsPath": "",
   "extractCssChunks": false,
   "inlineCss": false,

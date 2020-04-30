@@ -6,7 +6,7 @@
 // Get started at httsp://react-static.js.org
 import path from "path";
 export default {
-	siteRoot: "https://michielglibert.github.io/",
+	siteRoot: "https://michiel.me/",
 	maxThreads: 1, // Remove this when you start doing any static generation
 	plugins: [
 		[
