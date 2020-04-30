@@ -6,12 +6,12 @@
 // Get started at httsp://react-static.js.org
 import path from "path";
 export default {
-	siteRoot: "https://michiel.me",
+	siteRoot: "https://michielglibert.github.io/",
 	maxThreads: 1, // Remove this when you start doing any static generation
 	plugins: [
 		[
 			"react-static-plugin-favicons",
-			{ inputFile: path.resolve(__dirname, "favicon.png") },
+			{ inputFile: path.resolve(__dirname + "/favicon", "favicon.png") },
 		],
 	],
 };

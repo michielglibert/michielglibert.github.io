@@ -13,12 +13,12 @@
   "preloadPollInterval": 300,
   "productionSourceMaps": false,
   "entry": "index.js",
-  "siteRoot": "https://michiel.me",
+  "siteRoot": "https://michielglibert.github.io",
   "plugins": [
     [
       "react-static-plugin-favicons",
       {
-        "inputFile": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/favicon.png"
+        "inputFile": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/favicon/favicon.png"
       }
     ],
     "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final"
@@ -39,7 +39,7 @@
     "STATIC_DATA": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/dist/staticData"
   },
   "basePath": "",
-  "publicPath": "https://michiel.me/",
+  "publicPath": "https://michielglibert.github.io/",
   "assetsPath": "",
   "extractCssChunks": false,
   "inlineCss": false,
