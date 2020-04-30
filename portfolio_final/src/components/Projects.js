@@ -115,8 +115,8 @@ export class Projects extends Component {
 			},
 			{
 				title: "CoCare",
-				description: `CoCare was een platform dat werd ontwikkeld tijdens mijn bachelor voor een klant als opdracht voor het opleidingsonderdeel Project.
-					 Het hoofddoel van de applicatie was om voor gescheiden ouders een handig kostenoverzicht te geven en zo discussies te vermijden.
+				description: `Dit was een platform dat werd ontwikkeld tijdens mijn bachelor voor een klant als opdracht voor het opleidingsonderdeel Project.
+					 Het hoofddoel van de applicatie was om voor gescheiden ouders een handig kostenoverzicht te geven om de kosten eenvoudiger te kunnen delen.
 					 Hierbij waren enkele extra functionaliteiten aanwezig zoals informatie over het kind en een kenniscentrum.
 					 Deze applicatie had zowel een mobile app als een web app 💻
 					`,

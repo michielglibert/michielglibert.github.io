@@ -7,9 +7,11 @@ a {
 
 html {
 	min-width: 300px;
+	max-width: 100%;
 }
 
 body {
+	max-width: 100%;
 	margin: 0 auto;
 	font-family: "CircularStd", sans-serif;
 }
