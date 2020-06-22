@@ -7,7 +7,6 @@ import { ProgressBar } from "react-bootstrap";
 const Wrapper = styled.div`
 	margin: 0 auto;
 	padding: 16px;
-	padding-bottom: 64px;
 	max-width: 1000px;
 
 	@media screen and (max-width: 1000px) {
@@ -325,15 +324,16 @@ export class Cv extends Component {
 						<Summary>
 							<Title>Over mijzelf</Title>
 							<p>
-								Als afgestudeerde student sta ik open voor nieuwe uitdagingen.
-								Mijn passie voor IT heeft mij gemaakt tot de persoon die ik
-								vandaag ben geworden. Ik ben iemand die zich graag focust op een
-								doel en daar naar toe probeer te werken met mijn capaciteiten.
-								Opgeven is immers niet één van mijn sterkste punten en daarnaast
-								behaal je een doel niet altijd alleen. Ik probeer dan ook niet
-								enkel te presteren voor mezelf, maar ik tracht ook een aangename
-								persoon te zijn voor mijn omgeving waarbij flexibiliteit en een
-								dagelijkse glimlach het verschil zeker maken.
+								Als afgestudeerde informaticus sta ik open voor nieuwe
+								uitdagingen. Mijn passie voor IT heeft mij gemaakt tot de
+								persoon die ik vandaag ben geworden. Ik ben iemand die zich
+								graag focust op een doel en daar naar toe probeer te werken met
+								mijn capaciteiten. Opgeven is immers niet één van mijn sterkste
+								punten en daarnaast behaal je een doel niet altijd alleen. Ik
+								probeer dan ook niet enkel te presteren voor mezelf, maar ik
+								tracht ook een aangename persoon te zijn voor mijn omgeving
+								waarbij flexibiliteit en een dagelijkse glimlach het verschil
+								zeker maken.
 							</p>
 						</Summary>
 						<ContentWrapper>
