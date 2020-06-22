@@ -130,22 +130,6 @@ export class Career extends Component {
 						</Subtitle>
 						<p>Web en Mobile Apps</p>
 					</VerticalTimelineElement>
-					<VerticalTimelineElement
-						iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-						icon={
-							<Icon>
-								<i className="fas fa-school"></i>
-							</Icon>
-						}
-						date="2009 - 2015"
-					>
-						<Title className="vertical-timeline-element-title">
-							Handel TSO
-						</Title>
-						<Subtitle className="vertical-timeline-element-subtitle">
-							Sint-Franciscus Evergem
-						</Subtitle>
-					</VerticalTimelineElement>
 				</Timeline>
 			</Wrapper>
 		);

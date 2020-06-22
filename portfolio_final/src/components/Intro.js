@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Nav from "./Nav";
 import styled from "styled-components";
 import { Link } from "react-scroll";
+
+import { Link as LinkRouter } from "react-router-dom";
 import propic from "../static/propic.jpg";
 import mountains from "../static/mountains.jpg";
 import Img from "react-image";
@@ -98,13 +100,18 @@ const Description = styled.h3`
 	margin: 0;
 `;
 
-const Subtitle = styled.h3`
-	font-size: 16pt;
-	font-family: "Open Sans", sans-serif;
-	color: #707070;
-	margin: 0;
-	letter-spacing: 2px;
+const LinkRouterStyled = styled(LinkRouter)`
+	margin-top: 16px;
+	font-size: 20pt;
 `;
+
+// const Subtitle = styled.h3`
+// 	font-size: 16pt;
+// 	font-family: "Open Sans", sans-serif;
+// 	color: #707070;
+// 	margin: 0;
+// 	letter-spacing: 2px;
+// `;
 
 const ChevronWrapper = styled(Link)`
 	cursor: pointer;
@@ -112,7 +119,7 @@ const ChevronWrapper = styled(Link)`
 	box-sizing: content-box;
 	margin-top: 32px;
 	font-size: 50pt;
-	color: white;
+	color: white !important;
 `;
 
 export class Intro extends Component {
@@ -127,8 +134,8 @@ export class Intro extends Component {
 						</ImgWrapper>
 						<TextWrapper>
 							<Title>Hi!</Title>
-							<Description>I'm Michiel Glibert</Description>
-							<Subtitle>DEVELOPER</Subtitle>
+							<Description>Ik ben Michiel Glibert</Description>
+							<LinkRouterStyled to="/cv">Bekijk mijn CV</LinkRouterStyled>
 						</TextWrapper>
 					</IntroCard>
 					<ChevronWrapper

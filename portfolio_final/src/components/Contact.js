@@ -57,6 +57,7 @@ const Card = styled.a`
 
 	&:hover {
 		opacity: 0.8;
+		text-decoration: none;
 	}
 `;
 

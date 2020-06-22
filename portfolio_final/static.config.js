@@ -24,6 +24,7 @@ export default {
 	siteRoot: "https://michiel.me/",
 	maxThreads: 1, // Remove this when you start doing any static generation
 	plugins: [
+		"react-static-plugin-react-router",
 		"react-static-plugin-styled-components",
 		[
 			"react-static-plugin-favicons",

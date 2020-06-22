@@ -6,10 +6,7 @@ import solomon from "../static/solomon.jpg";
 import surveymaster from "../static/surveymaster.jpg";
 import cocare from "../static/cocare.jpg";
 import Img from "react-image";
-import ReactMarkdown from "react-markdown";
 import emoji from "emoji-dictionary";
-const emojiSupport = (text) =>
-	text.value.replace(/:\w+:/gi, (name) => emoji.getUnicode(name));
 
 const Wrapper = styled.div`
 	margin: 0 auto;
@@ -99,7 +96,7 @@ export class Projects extends Component {
 				 Hierbij hebben 4 andere groepsleden en ik deze applicatie vanaf 0 op 8 weken tijd ontwikkeld.
 				 Rekeninghoudend met het feit dat dit moest gebeuren na de vele lesuren was dit een hele klus.
 				 Gelukkig is doorzetten en teamwork	1 van mijn specialiteiten 😉`,
-				img: solomon,
+				src: solomon,
 				url: "https://solomonelections.net/",
 			},
 			{
@@ -110,7 +107,7 @@ export class Projects extends Component {
 					 Hierbij kan dan de verdeling gezien worden van wat andere gebruikers als antwoord gaven.
 					 Er kunnen zelf ook vragen worden toegevoegd inclusief comments en likes 👍
 				 `,
-				img: surveymaster,
+				src: surveymaster,
 				url: "https://surveyymaster.herokuapp.com/",
 			},
 			{
@@ -120,12 +117,19 @@ export class Projects extends Component {
 					 Hierbij waren enkele extra functionaliteiten aanwezig zoals informatie over het kind en een kenniscentrum.
 					 Deze applicatie had zowel een mobile app als een web app 💻
 					`,
-				img: cocare,
+				src: cocare,
 			},
 		],
 		position: 0,
 		disableButtons: false,
 	};
+
+	componentDidMount() {
+		this.state.projects.forEach((project) => {
+			const img = new Image();
+			img.src = project.src;
+		});
+	}
 
 	goLeft = () => {
 		if (!this.state.disableButtons) {
@@ -191,7 +195,7 @@ export class Projects extends Component {
 										target: "_blank",
 									})}
 								>
-									<ProjectImage src={projects[position].img} />
+									<ProjectImage src={projects[position].src} />
 								</a>
 							</ProjectImageWrapper>
 						</ProjectWrapper>

@@ -1,17 +1,16 @@
 // Framework imports
 import React, { Component } from "react";
+import { Root, Routes } from "react-static";
+import { Switch, Route } from "react-router-dom";
 import styled from "styled-components";
-import Intro from "./components/Intro";
-import About from "./components/About";
-import Career from "./components/Career";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import AOS from "aos";
+import Main from "./components/Main";
+import Cv from "./components/Cv";
 
 // Style imports
 import "./app.css";
 import "../node_modules/aos/dist/aos.css";
-import "circular-std";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const SiteWrapper = styled.div`
 	font-size: 15pt;
@@ -27,13 +26,15 @@ class App extends Component {
 
 	render() {
 		return (
-			<SiteWrapper>
-				<Intro />
-				<About />
-				<Career />
-				<Projects />
-				<Contact />
-			</SiteWrapper>
+			<Root>
+				<SiteWrapper>
+					<Switch>
+						<Route path="/" exact={true} component={Main} />
+						<Route path="/cv" exact={true} component={Cv} />
+						<Route render={() => <Routes />} />
+					</Switch>
+				</SiteWrapper>
+			</Root>
 		);
 	}
 }

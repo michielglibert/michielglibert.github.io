@@ -1,19 +1,24 @@
 // Imports
-
+import plugin0 from '__react_static_root__/node_modules/react-static-plugin-react-router/browser.api.js'
 
 // Plugins
 const plugins = [{
-        location: "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/node_modules/react-static-plugin-styled-components",
+        location: "__react_static_root__/node_modules/react-static-plugin-react-router",
+        plugins: [],
+        hooks: plugin0({})
+      },
+{
+        location: "__react_static_root__/node_modules/react-static-plugin-styled-components",
         plugins: [],
         hooks: {}
       },
 {
-        location: "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/node_modules/react-static-plugin-favicons",
+        location: "__react_static_root__/node_modules/react-static-plugin-favicons",
         plugins: [],
         hooks: {}
       },
 {
-        location: "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final",
+        location: "__react_static_root__/",
         plugins: [],
         hooks: {}
       }]

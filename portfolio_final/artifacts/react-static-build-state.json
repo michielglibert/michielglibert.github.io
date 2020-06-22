@@ -12,35 +12,36 @@
   "disableRuntime": false,
   "preloadPollInterval": 300,
   "productionSourceMaps": false,
-  "entry": "index.js",
   "silent": true,
+  "entry": "index.js",
   "extractCssChunks": true,
   "siteRoot": "https://michiel.me",
   "plugins": [
+    "react-static-plugin-react-router",
     "react-static-plugin-styled-components",
     [
       "react-static-plugin-favicons",
       {
-        "inputFile": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/favicon/favicon.png"
+        "inputFile": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\favicon\\favicon.png"
       }
     ],
-    "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final"
+    "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final"
   ],
   "inlineCss": true,
   "paths": {
-    "ROOT": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final",
-    "SRC": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/src",
-    "DIST": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/dist",
-    "ASSETS": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/dist",
-    "PLUGINS": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/plugins",
-    "TEMP": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/tmp",
-    "ARTIFACTS": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/artifacts",
-    "PUBLIC": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/public",
-    "NODE_MODULES": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/node_modules",
-    "EXCLUDE_MODULES": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/node_modules",
-    "PACKAGE": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/package.json",
-    "HTML_TEMPLATE": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/dist/index.html",
-    "STATIC_DATA": "/mnt/c/Users/michi/Projects/michielglibert.github.io/portfolio_final/dist/staticData"
+    "ROOT": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final",
+    "SRC": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\src",
+    "DIST": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\dist",
+    "ASSETS": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\dist",
+    "PLUGINS": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\plugins",
+    "TEMP": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\tmp",
+    "ARTIFACTS": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\artifacts",
+    "PUBLIC": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\public",
+    "NODE_MODULES": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\node_modules",
+    "PACKAGE": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\package.json",
+    "HTML_TEMPLATE": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\dist\\index.html",
+    "STATIC_DATA": "C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\dist\\staticData"
   },
   "basePath": "",
   "publicPath": "https://michiel.me/",
