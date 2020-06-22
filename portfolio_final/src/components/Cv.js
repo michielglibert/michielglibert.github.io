@@ -276,18 +276,6 @@ export class Cv extends Component {
 	render() {
 		return (
 			<Wrapper>
-				<TextBox>
-					<Back>
-						<Link to="/">
-							<i className="fas fa-long-arrow-alt-left"></i>Terug naar mijn
-							website
-						</Link>
-					</Back>
-					<Print onClick={this.printArea}>
-						<i className="fas fa-print"></i>
-						Printen
-					</Print>
-				</TextBox>
 				<CvWrapper id="printableArea">
 					<HeaderWrapper>
 						<ProPic>
@@ -421,7 +409,7 @@ export class Cv extends Component {
 									<b>Frans</b> (Algemene kennis)
 								</SkillName>
 								<SkillName>
-									<b>Duits</b> (Lichte kennis)
+									<b>Duits</b> (Geringe kennis)
 								</SkillName>
 							</Sidebar>
 							<Experience>
