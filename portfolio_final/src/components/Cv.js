@@ -455,7 +455,7 @@ export class Cv extends Component {
 									<Bedrijf>Universiteit Gent</Bedrijf>
 									<Periode>2019-2020</Periode>
 									<Beschrijving>
-										Als vervolg op mijn schakelprogramma naar de industiële
+										Als vervolg op mijn schakelprogramma naar de industriële
 										wetenschappen informatica begon ik aan mijn masterjaar in
 										2019. Om dit met succes te kunnen afronden heb ik een
 										masterproef geschreven over de analyse van op blockchain
