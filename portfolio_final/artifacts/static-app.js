@@ -165,34 +165,28 @@ module.exports = require("react-router-dom");
 /* 9 */
 /***/ (function(module, exports) {
 
-module.exports = require("@babel/runtime/helpers/assertThisInitialized");
+module.exports = require("classnames");
 
 /***/ }),
 /* 10 */
 /***/ (function(module, exports) {
 
-module.exports = require("@babel/runtime/helpers/defineProperty");
+module.exports = require("react-image");
 
 /***/ }),
 /* 11 */
 /***/ (function(module, exports) {
 
-module.exports = require("classnames");
+module.exports = require("@babel/runtime/helpers/assertThisInitialized");
 
 /***/ }),
 /* 12 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "static/propic.7f0d1849.jpg";
+module.exports = require("@babel/runtime/helpers/defineProperty");
 
 /***/ }),
 /* 13 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-image");
-
-/***/ }),
-/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -202,7 +196,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _utils = __webpack_require__(22);
+var _utils = __webpack_require__(21);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
@@ -215,25 +209,25 @@ var requireById = function requireById(id) {
 exports["default"] = requireById;
 
 /***/ }),
-/* 15 */
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 16 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-static");
 
 /***/ }),
-/* 17 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 
-var _typeof = __webpack_require__(21);
+var _typeof = __webpack_require__(20);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -301,11 +295,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(15);
+var _propTypes = __webpack_require__(14);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(27);
+var _hoistNonReactStatics = __webpack_require__(26);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -313,7 +307,7 @@ var _vm = __webpack_require__(54);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _utils = __webpack_require__(22);
+var _utils = __webpack_require__(21);
 
 var _helpers = __webpack_require__(55);
 
@@ -713,19 +707,19 @@ function universal(asyncModule) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(50)(module)))
 
 /***/ }),
-/* 18 */
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-scroll");
 
 /***/ }),
-/* 19 */
-/***/ (function(module, exports) {
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = require("react-bootstrap");
+module.exports = __webpack_require__.p + "static/propic.7f0d1849.jpg";
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -759,7 +753,7 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(16);
+var external_react_static_ = __webpack_require__(15);
 
 // EXTERNAL MODULE: external "react-router-dom"
 var external_react_router_dom_ = __webpack_require__(8);
@@ -769,11 +763,11 @@ var external_styled_components_ = __webpack_require__(2);
 var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
 
 // EXTERNAL MODULE: external "aos"
-var external_aos_ = __webpack_require__(37);
+var external_aos_ = __webpack_require__(36);
 var external_aos_default = /*#__PURE__*/__webpack_require__.n(external_aos_);
 
 // EXTERNAL MODULE: external "react-scroll"
-var external_react_scroll_ = __webpack_require__(18);
+var external_react_scroll_ = __webpack_require__(17);
 
 // CONCATENATED MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/components/Nav.js
 
@@ -858,15 +852,15 @@ var Nav_Nav = /*#__PURE__*/function (_Component) {
 }(external_react_["Component"]);
 /* harmony default export */ var components_Nav = (Nav_Nav);
 // EXTERNAL MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/static/propic.jpg
-var propic = __webpack_require__(12);
+var propic = __webpack_require__(18);
 var propic_default = /*#__PURE__*/__webpack_require__.n(propic);
 
 // EXTERNAL MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/static/mountains.jpg
-var mountains = __webpack_require__(38);
+var mountains = __webpack_require__(37);
 var mountains_default = /*#__PURE__*/__webpack_require__.n(mountains);
 
 // EXTERNAL MODULE: external "react-image"
-var external_react_image_ = __webpack_require__(13);
+var external_react_image_ = __webpack_require__(10);
 var external_react_image_default = /*#__PURE__*/__webpack_require__.n(external_react_image_);
 
 // CONCATENATED MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/components/Intro.js
@@ -1051,7 +1045,7 @@ var Intro_Intro = /*#__PURE__*/function (_Component) {
 }(external_react_["Component"]);
 /* harmony default export */ var components_Intro = (Intro_Intro);
 // EXTERNAL MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/static/lappy.jpg
-var lappy = __webpack_require__(39);
+var lappy = __webpack_require__(38);
 var lappy_default = /*#__PURE__*/__webpack_require__.n(lappy);
 
 // CONCATENATED MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/components/About.js
@@ -1161,10 +1155,10 @@ var About_About = /*#__PURE__*/function (_Component) {
 }(external_react_["Component"]);
 /* harmony default export */ var components_About = (About_About);
 // EXTERNAL MODULE: external "prop-types"
-var external_prop_types_ = __webpack_require__(15);
+var external_prop_types_ = __webpack_require__(14);
 
 // EXTERNAL MODULE: external "classnames"
-var external_classnames_ = __webpack_require__(11);
+var external_classnames_ = __webpack_require__(9);
 var external_classnames_default = /*#__PURE__*/__webpack_require__.n(external_classnames_);
 
 // CONCATENATED MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/components/VerticalTimeline/VerticalTimeline.js
@@ -1193,11 +1187,11 @@ VerticalTimeline_VerticalTimeline.defaultProps = {
 };
 /* harmony default export */ var components_VerticalTimeline_VerticalTimeline = (VerticalTimeline_VerticalTimeline);
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(40);
+var slicedToArray_ = __webpack_require__(39);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "react-intersection-observer"
-var external_react_intersection_observer_ = __webpack_require__(41);
+var external_react_intersection_observer_ = __webpack_require__(40);
 
 // CONCATENATED MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/components/VerticalTimeline/VerticalTimelineElement.js
 
@@ -1461,29 +1455,29 @@ var Career_Career = /*#__PURE__*/function (_Component) {
 }(external_react_["Component"]);
 /* harmony default export */ var components_Career = (Career_Career);
 // EXTERNAL MODULE: external "@babel/runtime/helpers/assertThisInitialized"
-var assertThisInitialized_ = __webpack_require__(9);
+var assertThisInitialized_ = __webpack_require__(11);
 var assertThisInitialized_default = /*#__PURE__*/__webpack_require__.n(assertThisInitialized_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/defineProperty"
-var defineProperty_ = __webpack_require__(10);
+var defineProperty_ = __webpack_require__(12);
 var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty_);
 
 // EXTERNAL MODULE: external "lodash"
 var external_lodash_ = __webpack_require__(64);
 
 // EXTERNAL MODULE: external "react-transition-group"
-var external_react_transition_group_ = __webpack_require__(25);
+var external_react_transition_group_ = __webpack_require__(24);
 
 // EXTERNAL MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/static/solomon.jpg
-var solomon = __webpack_require__(42);
+var solomon = __webpack_require__(41);
 var solomon_default = /*#__PURE__*/__webpack_require__.n(solomon);
 
 // EXTERNAL MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/static/surveymaster.jpg
-var surveymaster = __webpack_require__(43);
+var surveymaster = __webpack_require__(42);
 var surveymaster_default = /*#__PURE__*/__webpack_require__.n(surveymaster);
 
 // EXTERNAL MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/static/cocare.jpg
-var cocare = __webpack_require__(44);
+var cocare = __webpack_require__(43);
 var cocare_default = /*#__PURE__*/__webpack_require__.n(cocare);
 
 // EXTERNAL MODULE: external "emoji-dictionary"
@@ -1934,7 +1928,7 @@ var Main_Main = /*#__PURE__*/function (_Component) {
 }(external_react_["Component"]);
 /* harmony default export */ var components_Main = (Main_Main);
 // EXTERNAL MODULE: external "react-bootstrap"
-var external_react_bootstrap_ = __webpack_require__(19);
+var external_react_bootstrap_ = __webpack_require__(44);
 
 // CONCATENATED MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/components/Cv.js
 
@@ -1981,7 +1975,7 @@ function _templateObject31() {
 }
 
 function _templateObject30() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tfont-size: 10pt;\n\tfont-weight: 400;\n\tcolor: lightgrey;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tfont-size: 10pt;\n\tfont-weight: 400;\n\tcolor: grey;\n"]);
 
   _templateObject30 = function _templateObject30() {
     return data;
@@ -2425,486 +2419,6 @@ var Cv_Cv = /*#__PURE__*/function (_Component) {
   return Cv;
 }(external_react_["Component"]);
 /* harmony default export */ var components_Cv = (Cv_Cv);
-// CONCATENATED MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/components/cvprint.js
-
-
-
-
-
-
-
-
-
-function cvprint_createSuper(Derived) { var hasNativeReflectConstruct = cvprint_isNativeReflectConstruct(); return function _createSuperInternal() { var Super = getPrototypeOf_default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = getPrototypeOf_default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return possibleConstructorReturn_default()(this, result); }; }
-
-function cvprint_isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-function cvprint_templateObject33() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tmargin-top: 8px;\n\tfont-size: 12pt;\n\tfont-weight: 700;\n"]);
-
-  cvprint_templateObject33 = function _templateObject33() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject32() {
-  var data = taggedTemplateLiteral_default()(["\n\tfont-size: 9pt;\n\tfont-weight: 500;\n\tbackground-color: #1f3b4d;\n\tcolor: white;\n\tborder-radius: 30px;\n\tdisplay: inline-block;\n\tpadding: 2px 6px;\n\tmargin-right: 8px;\n"]);
-
-  cvprint_templateObject32 = function _templateObject32() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject31() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 4px 0px;\n\tfont-size: 12pt;\n"]);
-
-  cvprint_templateObject31 = function _templateObject31() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject30() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tfont-size: 10pt;\n\tfont-weight: 400;\n\tcolor: lightgrey;\n"]);
-
-  cvprint_templateObject30 = function _templateObject30() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject29() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tfont-size: 13pt;\n\tfont-weight: 500;\n"]);
-
-  cvprint_templateObject29 = function _templateObject29() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject28() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tfont-size: 15pt;\n\tfont-weight: 700;\n"]);
-
-  cvprint_templateObject28 = function _templateObject28() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject27() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 16px 0;\n\tmargin-bottom: 32px;\n"]);
-
-  cvprint_templateObject27 = function _templateObject27() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject26() {
-  var data = taggedTemplateLiteral_default()(["\n\t& > * {\n\t\tbackground-color: #1f3b4d !important;\n\t}\n"]);
-
-  cvprint_templateObject26 = function _templateObject26() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject25() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin-top: 16px;\n\tmargin-bottom: 0;\n\tfont-size: 15pt;\n\tfont-weight: 700;\n"]);
-
-  cvprint_templateObject25 = function _templateObject25() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject24() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 8px 0px;\n"]);
-
-  cvprint_templateObject24 = function _templateObject24() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject23() {
-  var data = taggedTemplateLiteral_default()(["\n\tfont-size: 12pt;\n\tmargin: 0px;\n"]);
-
-  cvprint_templateObject23 = function _templateObject23() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject22() {
-  var data = taggedTemplateLiteral_default()(["\n\twidth: 25%;\n\t@media screen and (max-width: 890px) {\n\t\twidth: 100%;\n\t}\n"]);
-
-  cvprint_templateObject22 = function _templateObject22() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject21() {
-  var data = taggedTemplateLiteral_default()(["\n\twidth: 70%;\n\n\t@media screen and (max-width: 890px) {\n\t\twidth: 100%;\n\t}\n"]);
-
-  cvprint_templateObject21 = function _templateObject21() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject20() {
-  var data = taggedTemplateLiteral_default()(["\n\tdisplay: flex;\n\tjustify-content: space-between;\n\n\t@media screen and (max-width: 890px) {\n\t\tflex-direction: column;\n\t}\n"]);
-
-  cvprint_templateObject20 = function _templateObject20() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject19() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 8px 0;\n\tborder-bottom: solid black 1px;\n\ttext-transform: uppercase;\n"]);
-
-  cvprint_templateObject19 = function _templateObject19() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject18() {
-  var data = taggedTemplateLiteral_default()([""]);
-
-  cvprint_templateObject18 = function _templateObject18() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject17() {
-  var data = taggedTemplateLiteral_default()(["\n\tpadding: 16px 48px 32px 48px;\n\tcolor: #1f3b4d;\n"]);
-
-  cvprint_templateObject17 = function _templateObject17() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject16() {
-  var data = taggedTemplateLiteral_default()(["\n\tpadding: 24px 16px;\n\twidth: 30%;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\n\t@media screen and (max-width: 890px) {\n\t\twidth: 100%;\n\t\talign-items: center;\n\t}\n"]);
-
-  cvprint_templateObject16 = function _templateObject16() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject15() {
-  var data = taggedTemplateLiteral_default()(["\n\tcolor: white;\n\tfont-size: 20pt;\n"]);
-
-  cvprint_templateObject15 = function _templateObject15() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject14() {
-  var data = taggedTemplateLiteral_default()(["\n\tfont-size: 12pt;\n\tmargin: 2px;\n"]);
-
-  cvprint_templateObject14 = function _templateObject14() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject13() {
-  var data = taggedTemplateLiteral_default()(["\n\tfont-size: 18pt;\n\tcolor: white;\n"]);
-
-  cvprint_templateObject13 = function _templateObject13() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject12() {
-  var data = taggedTemplateLiteral_default()(["\n\tdisplay: flex;\n\tcolor: lightgrey;\n\talign-items: center;\n\n\t& > a {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tcolor: lightgrey;\n\t\ttext-decoration: none;\n\t}\n\n\t& > a > * {\n\t\tmargin-right: 16px;\n\t}\n\n\t& > a:hover {\n\t\tcolor: white;\n\t}\n"]);
-
-  cvprint_templateObject12 = function _templateObject12() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject11() {
-  var data = taggedTemplateLiteral_default()(["\n\tfont-weight: 400;\n\tfont-size: 18pt;\n\tmargin: 8px 0 24px 0;\n\tcolor: white;\n"]);
-
-  cvprint_templateObject11 = function _templateObject11() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject10() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tcolor: white;\n"]);
-
-  cvprint_templateObject10 = function _templateObject10() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject9() {
-  var data = taggedTemplateLiteral_default()(["\n\tdisplay: flex;\n\tflex-direction: column;\n\tpadding: 24px;\n\twidth: 50%;\n\n\t@media screen and (max-width: 890px) {\n\t\twidth: 100%;\n\t\talign-items: center;\n\t}\n"]);
-
-  cvprint_templateObject9 = function _templateObject9() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject8() {
-  var data = taggedTemplateLiteral_default()(["\n\theight: 100%;\n\twidth: 100%;\n\t@media screen and (max-width: 890px) {\n\t\tborder-radius: 5px;\n\t}\n"]);
-
-  cvprint_templateObject8 = function _templateObject8() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject7() {
-  var data = taggedTemplateLiteral_default()(["\n\twidth: 20%;\n\t@media screen and (max-width: 890px) {\n\t\tpadding-top: 16px;\n\t}\n"]);
-
-  cvprint_templateObject7 = function _templateObject7() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject6() {
-  var data = taggedTemplateLiteral_default()(["\n\tdisplay: flex;\n\tmax-width: 100%;\n\tbackground-color: #1f3b4d;\n\t@media screen and (max-width: 890px) {\n\t\tflex-direction: column;\n\t\tjustify-content: center;\n\t\talign-items: center;\n\t}\n"]);
-
-  cvprint_templateObject6 = function _templateObject6() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject5() {
-  var data = taggedTemplateLiteral_default()(["\n\t-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);\n\t-moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);\n\tbox-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);\n\tdisplay: flex;\n\tflex-direction: column;\n"]);
-
-  cvprint_templateObject5 = function _templateObject5() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject4() {
-  var data = taggedTemplateLiteral_default()(["\n\tdisplay: flex;\n\talign-items: center;\n\tcolor: #1f3b4d;\n\tcursor: pointer;\n\n\t& i {\n\t\tmargin-right: 8px;\n\t}\n\n\t&:hover {\n\t\tcolor: #2c4c61;\n\t}\n"]);
-
-  cvprint_templateObject4 = function _templateObject4() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject3() {
-  var data = taggedTemplateLiteral_default()(["\n\tdisplay: flex;\n\talign-items: center;\n\tcursor: pointer;\n\n\t& i {\n\t\tmargin-right: 8px;\n\t}\n"]);
-
-  cvprint_templateObject3 = function _templateObject3() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject2() {
-  var data = taggedTemplateLiteral_default()(["\n\tdisplay: flex;\n\tpadding: 0 16px;\n\tjustify-content: space-between;\n\tmargin-bottom: 24px;\n"]);
-
-  cvprint_templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function cvprint_templateObject() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0 auto;\n\tpadding: 16px;\n\tmax-width: 1000px;\n\n\t@media screen and (max-width: 1000px) {\n\t\tpadding: 0;\n\t\tpadding-top: 16px;\n\t}\n"]);
-
-  cvprint_templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-
-
-var cvprint_Wrapper = external_styled_components_default.a.div(cvprint_templateObject());
-var cvprint_TextBox = external_styled_components_default.a.div(cvprint_templateObject2());
-var cvprint_Back = external_styled_components_default.a.div(cvprint_templateObject3());
-var cvprint_Print = external_styled_components_default.a.div(cvprint_templateObject4());
-var cvprint_CvWrapper = external_styled_components_default.a.div(cvprint_templateObject5());
-var cvprint_HeaderWrapper = external_styled_components_default.a.div(cvprint_templateObject6());
-var cvprint_ProPic = external_styled_components_default.a.div(cvprint_templateObject7());
-var cvprint_Image = external_styled_components_default.a.img(cvprint_templateObject8());
-var cvprint_Info = external_styled_components_default.a.div(cvprint_templateObject9());
-var cvprint_Name = external_styled_components_default.a.h1(cvprint_templateObject10());
-var cvprint_Func = external_styled_components_default.a.h2(cvprint_templateObject11());
-var cvprint_Contact = external_styled_components_default.a.div(cvprint_templateObject12());
-var cvprint_Planet = external_styled_components_default.a.div(cvprint_templateObject13());
-var cvprint_SmallContact = external_styled_components_default()(cvprint_Contact)(cvprint_templateObject14());
-var cvprint_BigIcon = external_styled_components_default.a.div(cvprint_templateObject15());
-var cvprint_Links = external_styled_components_default.a.div(cvprint_templateObject16());
-var cvprint_BodyWrapper = external_styled_components_default.a.div(cvprint_templateObject17());
-var cvprint_Summary = external_styled_components_default.a.div(cvprint_templateObject18());
-var cvprint_Title = external_styled_components_default.a.h3(cvprint_templateObject19());
-var cvprint_ContentWrapper = external_styled_components_default.a.div(cvprint_templateObject20());
-var cvprint_Experience = external_styled_components_default.a.div(cvprint_templateObject21());
-var cvprint_Sidebar = external_styled_components_default.a.div(cvprint_templateObject22());
-var cvprint_SkillName = external_styled_components_default.a.div(cvprint_templateObject23());
-var cvprint_Skill = external_styled_components_default.a.div(cvprint_templateObject24());
-var cvprint_Subtitle = external_styled_components_default.a.h4(cvprint_templateObject25());
-var cvprint_ProgressBarStyled = external_styled_components_default()(external_react_bootstrap_["ProgressBar"])(cvprint_templateObject26());
-var cvprint_Opleiding = external_styled_components_default.a.div(cvprint_templateObject27());
-var cvprint_OpleidingNaam = external_styled_components_default.a.h4(cvprint_templateObject28());
-var cvprint_Bedrijf = external_styled_components_default.a.p(cvprint_templateObject29());
-var cvprint_Periode = external_styled_components_default.a.p(cvprint_templateObject30());
-var cvprint_Beschrijving = external_styled_components_default.a.div(cvprint_templateObject31());
-var cvprint_Tag = external_styled_components_default.a.div(cvprint_templateObject32());
-var cvprint_UsedTech = external_styled_components_default.a.div(cvprint_templateObject33());
-var cvprint_cvprint = /*#__PURE__*/function (_Component) {
-  inherits_default()(cvprint, _Component);
-
-  var _super = cvprint_createSuper(cvprint);
-
-  function cvprint() {
-    var _this;
-
-    classCallCheck_default()(this, cvprint);
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _super.call.apply(_super, [this].concat(args));
-
-    defineProperty_default()(assertThisInitialized_default()(_this), "printArea", function () {
-      var printContents = document.getElementById("printableArea").innerHTML;
-      var originalContents = document.body.innerHTML;
-      document.body.innerHTML = printContents;
-      window.print();
-      document.body.innerHTML = originalContents;
-    });
-
-    return _this;
-  }
-
-  createClass_default()(cvprint, [{
-    key: "render",
-    value: function render() {
-      return /*#__PURE__*/external_react_default.a.createElement(cvprint_Wrapper, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_CvWrapper, {
-        id: "printableArea"
-      }, /*#__PURE__*/external_react_default.a.createElement(cvprint_HeaderWrapper, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_ProPic, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_Image, {
-        src: propic_default.a
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Info, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_Name, null, "Michiel Glibert"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Func, null, "Full Stack Developer"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Contact, null, /*#__PURE__*/external_react_default.a.createElement("a", {
-        href: "mailto:michiel.glibert@gmail.com"
-      }, /*#__PURE__*/external_react_default.a.createElement("i", {
-        className: "far fa-envelope"
-      }), "michiel.glibert@gmail.com"))), /*#__PURE__*/external_react_default.a.createElement(cvprint_Links, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SmallContact, null, /*#__PURE__*/external_react_default.a.createElement("a", {
-        href: "https://github.com/michielglibert",
-        target: "_blank"
-      }, /*#__PURE__*/external_react_default.a.createElement(cvprint_BigIcon, null, /*#__PURE__*/external_react_default.a.createElement("i", {
-        className: "fab fa-github-square"
-      })), "github.com/michielglibert")), /*#__PURE__*/external_react_default.a.createElement(cvprint_SmallContact, null, /*#__PURE__*/external_react_default.a.createElement("a", {
-        href: "https://www.linkedin.com/in/michielglibert/",
-        target: "_blank"
-      }, /*#__PURE__*/external_react_default.a.createElement(cvprint_BigIcon, null, /*#__PURE__*/external_react_default.a.createElement("i", {
-        className: "fab fa-linkedin"
-      })), "linkedin.com/in/michielglibert")), /*#__PURE__*/external_react_default.a.createElement(cvprint_SmallContact, null, /*#__PURE__*/external_react_default.a.createElement("a", {
-        href: "https://michiel.me/",
-        target: "_blank"
-      }, /*#__PURE__*/external_react_default.a.createElement(cvprint_Planet, null, /*#__PURE__*/external_react_default.a.createElement("i", {
-        className: "fas fa-globe"
-      })), "michiel.me")))), /*#__PURE__*/external_react_default.a.createElement(cvprint_BodyWrapper, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_Summary, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_Title, null, "Over mijzelf"), /*#__PURE__*/external_react_default.a.createElement("p", null, "Als afgestudeerde informaticus sta ik open voor nieuwe uitdagingen. Mijn passie voor IT heeft mij gemaakt tot de persoon die ik vandaag ben geworden. Ik ben iemand die zich graag focust op een doel en daar naar toe probeer te werken met mijn capaciteiten. Opgeven is immers niet \xE9\xE9n van mijn sterkste punten en daarnaast behaal je een doel niet altijd alleen. Ik probeer dan ook niet enkel te presteren voor mezelf, maar ik tracht ook een aangename persoon te zijn voor mijn omgeving waarbij flexibiliteit en een dagelijkse glimlach het verschil zeker maken.")), /*#__PURE__*/external_react_default.a.createElement(cvprint_ContentWrapper, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_Sidebar, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_Title, null, "Skills"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Subtitle, null, "Frontend"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, "HTML/CSS/Javascript"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 95
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, "React"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 90
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, "Android/iOS"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 75
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, "Angular"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 60
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Subtitle, null, "Backend"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, "Node.JS"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 95
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, "NoSQL en SQL"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 90
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, ".NET"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 85
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, "Typescript/Java/C++/C#"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 85
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Subtitle, null, "Overige"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, "Docker"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 95
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, "Algoritmen en datastructuren"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 80
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, "Netwerkbeheer"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 70
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, "Cybersecurity"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 65
-      })), /*#__PURE__*/external_react_default.a.createElement(cvprint_Skill, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, "Machine learning en AI"), /*#__PURE__*/external_react_default.a.createElement(cvprint_ProgressBarStyled, {
-        variant: "info",
-        now: 55
-      })), /*#__PURE__*/external_react_default.a.createElement("br", null), /*#__PURE__*/external_react_default.a.createElement(cvprint_Title, null, "Talen"), /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Nederlands"), " (Moedertaal)"), /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Engels"), " (Zeer goede kennis)"), /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Frans"), " (Algemene kennis)"), /*#__PURE__*/external_react_default.a.createElement(cvprint_SkillName, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Duits"), " (Geringe kennis)")), /*#__PURE__*/external_react_default.a.createElement(cvprint_Experience, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_Title, null, "Ervaring"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Opleiding, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_OpleidingNaam, null, "Stage: Full Stack Developer"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Bedrijf, null, "Kayzr"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Periode, null, "februari 2018 - mei 2018"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Beschrijving, null, "Tijdens mijn hogeschool opleiding was het niet alleen belangrijk om veel bij te leren on-campus, maar ook om veel bij te leren op de werkvloer. Zo deed ik mijn stage bij Kayzr, een E-sports platform. Daar mocht ik aan de slag als Full Stack Developer voor zowel de website als voor de mobiele applicatie.", /*#__PURE__*/external_react_default.a.createElement(cvprint_UsedTech, null, "Gebruikte technologie\xEBn"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Tag, null, "React"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Tag, null, "React Native"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Tag, null, "Node.JS"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Tag, null, "OrientDB"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Tag, null, "HTML/CSS/Javascript"))), /*#__PURE__*/external_react_default.a.createElement(cvprint_Title, null, "Opleidingen"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Opleiding, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_OpleidingNaam, null, "Master of Science in de industri\xEBle wetenschappen: informatica"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Bedrijf, null, "Universiteit Gent"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Periode, null, "2019-2020"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Beschrijving, null, "Als vervolg op mijn schakelprogramma naar de industri\xEBle wetenschappen informatica begon ik aan mijn masterjaar in 2019. Om dit met succes te kunnen afronden heb ik een masterproef geschreven over de analyse van op blockchain gebaseerde software ter opslag van herkomstinformatie.")), /*#__PURE__*/external_react_default.a.createElement(cvprint_Opleiding, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_OpleidingNaam, null, "Schakelprogramma tot de industri\xEBle wetenschappen: informatica"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Bedrijf, null, "Universiteit Gent"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Periode, null, "2018-2019"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Beschrijving, null, "In 2018 heb ik de keuze gemaakt om als vervolg op mijn hogeschool opleiding een schakelprogramma te starten aan de Universiteit Gent. Ik wou graag mijn kennis nog verder uitbreiden om zo, naast de hands-on ervaring die ik heb opgedaan op de hogeschool, mijn theoretische achtergrond op het gebied van informatica te verbeteren.")), /*#__PURE__*/external_react_default.a.createElement(cvprint_Opleiding, null, /*#__PURE__*/external_react_default.a.createElement(cvprint_OpleidingNaam, null, "Bachelor in de Toegepaste informatica"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Bedrijf, null, "Hogeschool Gent"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Periode, null, "2015-2018"), /*#__PURE__*/external_react_default.a.createElement(cvprint_Beschrijving, null, "In 2015 heb ik de keuze gemaakt om mijn carri\xE8re te starten als informaticus door de opleiding Toegepaste Informatica te volgen. Deze opleiding heeft van mijn interesse, informatica, mijn vakgebied gemaakt door het grote aanbood aan praktische opleidingsonderdelen. Om deze opleiding met succes af te ronden schreef ik een bachelorproef omtrent React 360, een framework om mobile virtual reality applicaties te bouwen.")))))));
-    }
-  }]);
-
-  return cvprint;
-}(external_react_["Component"]);
-/* harmony default export */ var components_cvprint = (cvprint_cvprint);
 // EXTERNAL MODULE: C:/Users/michi/Projects/michielglibert.github.io/portfolio_final/src/app.css
 var app = __webpack_require__(66);
 
@@ -2937,7 +2451,6 @@ function App_templateObject() {
 }
 
 // Framework imports
-
 
 
 
@@ -2982,10 +2495,6 @@ var App_App = /*#__PURE__*/function (_Component) {
         exact: true,
         component: components_Cv
       }), /*#__PURE__*/external_react_default.a.createElement(external_react_router_dom_["Route"], {
-        path: "/cvprint",
-        exact: true,
-        component: components_cvprint
-      }), /*#__PURE__*/external_react_default.a.createElement(external_react_router_dom_["Route"], {
         render: function render() {
           return /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Routes"], null);
         }
@@ -2999,19 +2508,19 @@ var App_App = /*#__PURE__*/function (_Component) {
 /* harmony default export */ var src_App = __webpack_exports__["a"] = (App_App);
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/typeof");
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof2 = __webpack_require__(21);
+var _typeof2 = __webpack_require__(20);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -3042,7 +2551,7 @@ var _react = __webpack_require__(0);
 
 var React = _interopRequireWildcard(_react);
 
-var _requireById = __webpack_require__(14);
+var _requireById = __webpack_require__(13);
 
 var _requireById2 = _interopRequireDefault(_requireById);
 
@@ -3171,7 +2680,7 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 };
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3262,31 +2771,31 @@ function toComment(sourceMap) {
 }
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 25 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-transition-group");
 
 /***/ }),
-/* 26 */
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = require("C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\node_modules\\react-static\\lib\\browser");
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 28 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3312,31 +2821,31 @@ module.exports = function escape(url, needQuotes) {
 };
 
 /***/ }),
-/* 29 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/fa-brands-400.4a5d4d85.eot";
 
 /***/ }),
-/* 30 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/fa-regular-400.6b20949b.eot";
 
 /***/ }),
-/* 31 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/fa-solid-900.9a1672a8.eot";
 
 /***/ }),
-/* 32 */
+/* 31 */
 /***/ (function(module, exports) {
 
 module.exports = require("C:\\Users\\michi\\Projects\\michielglibert.github.io\\portfolio_final\\artifacts\\__react_static_root__\\node_modules\\react-static\\lib\\browser\\components\\Default404");
 
 /***/ }),
-/* 33 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3349,7 +2858,7 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _reactStatic = __webpack_require__(16);
+var _reactStatic = __webpack_require__(15);
 
 var _reactRouterDom = __webpack_require__(8);
 
@@ -3427,70 +2936,76 @@ var _default = function _default(_ref2) {
 exports["default"] = _default;
 
 /***/ }),
-/* 34 */
+/* 33 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 35 */
+/* 34 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
-/* 36 */
+/* 35 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 37 */
+/* 36 */
 /***/ (function(module, exports) {
 
 module.exports = require("aos");
 
 /***/ }),
-/* 38 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/mountains.215d01db.jpg";
 
 /***/ }),
-/* 39 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/lappy.ac7e3a18.jpg";
 
 /***/ }),
-/* 40 */
+/* 39 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/slicedToArray");
 
 /***/ }),
-/* 41 */
+/* 40 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-intersection-observer");
 
 /***/ }),
-/* 42 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/solomon.4cb6480f.jpg";
 
 /***/ }),
-/* 43 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/surveymaster.57e74e76.jpg";
 
 /***/ }),
-/* 44 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/cocare.b9447180.jpg";
+
+/***/ }),
+/* 44 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap");
 
 /***/ }),
 /* 45 */
@@ -3511,7 +3026,7 @@ module.exports = __webpack_require__(56);
 
 var plugins = __webpack_require__(47)["default"];
 
-var _require = __webpack_require__(26),
+var _require = __webpack_require__(25),
     registerPlugins = _require.registerPlugins;
 
 registerPlugins(plugins);
@@ -3524,7 +3039,7 @@ if (false) {}
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _react_static_root_node_modules_react_static_plugin_react_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(33);
+/* harmony import */ var _react_static_root_node_modules_react_static_plugin_react_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(32);
 /* harmony import */ var _react_static_root_node_modules_react_static_plugin_react_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_react_static_root_node_modules_react_static_plugin_react_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
@@ -3557,7 +3072,7 @@ var plugins = [{
 
 /* eslint-disable import/no-dynamic-require */
 
-var _require = __webpack_require__(26),
+var _require = __webpack_require__(25),
     registerTemplates = _require.registerTemplates;
 
 var _require2 = __webpack_require__(49),
@@ -3575,13 +3090,13 @@ if (false) {}
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(__dirname) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "notFoundTemplate", function() { return notFoundTemplate; });
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(34);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(33);
 /* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(35);
+/* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(34);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(17);
+/* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(16);
 /* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_universal_component__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -3601,7 +3116,7 @@ var universalOptions = {
 var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/node_modules/react-static/lib/browser/components/Default404",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 32, 7))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.t.bind(null, 31, 7))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -3609,7 +3124,7 @@ var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/node_modules/react-static/lib/browser/components/Default404');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(32);
+    return /*require.resolve*/(31);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/node_modules/react-static/lib/browser/components/Default404";
@@ -3681,7 +3196,7 @@ var _extends = Object.assign || function (target) {
 
 exports["default"] = requireUniversalModule;
 
-var _utils = __webpack_require__(22);
+var _utils = __webpack_require__(21);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -3869,10 +3384,10 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	".": 14,
-	"./": 14,
-	"./index": 14,
-	"./index.js": 14
+	".": 13,
+	"./": 13,
+	"./index": 13,
+	"./index.js": 13
 };
 
 
@@ -3902,7 +3417,7 @@ webpackContext.id = 52;
 "use strict";
 
 
-var _typeof = __webpack_require__(21);
+var _typeof = __webpack_require__(20);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -3930,7 +3445,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(15);
+var _propTypes = __webpack_require__(14);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -4022,11 +3537,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.__handleAfter = exports.__update = undefined;
 
-var _hoistNonReactStatics = __webpack_require__(27);
+var _hoistNonReactStatics = __webpack_require__(26);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _index = __webpack_require__(17);
+var _index = __webpack_require__(16);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -4170,11 +3685,11 @@ module.exports = require("C:\\Users\\michi\\Projects\\michielglibert.github.io\\
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(24);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(23);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(36);
+/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(35);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(20);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(19);
 
 
  // Your top level component
@@ -4248,10 +3763,10 @@ module.exports = require("emoji-dictionary");
 /* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(23)(false);
+exports = module.exports = __webpack_require__(22)(false);
 // Imports
 exports.i(__webpack_require__(67), "");
-var urlEscape = __webpack_require__(28);
+var urlEscape = __webpack_require__(27);
 var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(80));
 var ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(81));
 
@@ -4264,23 +3779,23 @@ exports.push([module.i, "@font-face {\r\n\tfont-family: \"Avenir\";\r\n\tsrc: ur
 /* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(23)(false);
+exports = module.exports = __webpack_require__(22)(false);
 // Imports
-var urlEscape = __webpack_require__(28);
-var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(29));
-var ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(29) + "?#iefix");
+var urlEscape = __webpack_require__(27);
+var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(28));
+var ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(28) + "?#iefix");
 var ___CSS_LOADER_URL___2___ = urlEscape(__webpack_require__(68));
 var ___CSS_LOADER_URL___3___ = urlEscape(__webpack_require__(69));
 var ___CSS_LOADER_URL___4___ = urlEscape(__webpack_require__(70));
 var ___CSS_LOADER_URL___5___ = urlEscape(__webpack_require__(71) + "#fontawesome");
-var ___CSS_LOADER_URL___6___ = urlEscape(__webpack_require__(30));
-var ___CSS_LOADER_URL___7___ = urlEscape(__webpack_require__(30) + "?#iefix");
+var ___CSS_LOADER_URL___6___ = urlEscape(__webpack_require__(29));
+var ___CSS_LOADER_URL___7___ = urlEscape(__webpack_require__(29) + "?#iefix");
 var ___CSS_LOADER_URL___8___ = urlEscape(__webpack_require__(72));
 var ___CSS_LOADER_URL___9___ = urlEscape(__webpack_require__(73));
 var ___CSS_LOADER_URL___10___ = urlEscape(__webpack_require__(74));
 var ___CSS_LOADER_URL___11___ = urlEscape(__webpack_require__(75) + "#fontawesome");
-var ___CSS_LOADER_URL___12___ = urlEscape(__webpack_require__(31));
-var ___CSS_LOADER_URL___13___ = urlEscape(__webpack_require__(31) + "?#iefix");
+var ___CSS_LOADER_URL___12___ = urlEscape(__webpack_require__(30));
+var ___CSS_LOADER_URL___13___ = urlEscape(__webpack_require__(30) + "?#iefix");
 var ___CSS_LOADER_URL___14___ = urlEscape(__webpack_require__(76));
 var ___CSS_LOADER_URL___15___ = urlEscape(__webpack_require__(77));
 var ___CSS_LOADER_URL___16___ = urlEscape(__webpack_require__(78));
@@ -4379,7 +3894,7 @@ module.exports = __webpack_require__.p + "static/Lato-Regular.2d36b1a9.ttf";
 /* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(23)(false);
+exports = module.exports = __webpack_require__(22)(false);
 // Module
 exports.push([module.i, "[data-aos][data-aos][data-aos-duration=\"50\"],body[data-aos-duration=\"50\"] [data-aos]{transition-duration:50ms}[data-aos][data-aos][data-aos-delay=\"50\"],body[data-aos-delay=\"50\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"50\"].aos-animate,body[data-aos-delay=\"50\"] [data-aos].aos-animate{transition-delay:50ms}[data-aos][data-aos][data-aos-duration=\"100\"],body[data-aos-duration=\"100\"] [data-aos]{transition-duration:.1s}[data-aos][data-aos][data-aos-delay=\"100\"],body[data-aos-delay=\"100\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"100\"].aos-animate,body[data-aos-delay=\"100\"] [data-aos].aos-animate{transition-delay:.1s}[data-aos][data-aos][data-aos-duration=\"150\"],body[data-aos-duration=\"150\"] [data-aos]{transition-duration:.15s}[data-aos][data-aos][data-aos-delay=\"150\"],body[data-aos-delay=\"150\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"150\"].aos-animate,body[data-aos-delay=\"150\"] [data-aos].aos-animate{transition-delay:.15s}[data-aos][data-aos][data-aos-duration=\"200\"],body[data-aos-duration=\"200\"] [data-aos]{transition-duration:.2s}[data-aos][data-aos][data-aos-delay=\"200\"],body[data-aos-delay=\"200\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"200\"].aos-animate,body[data-aos-delay=\"200\"] [data-aos].aos-animate{transition-delay:.2s}[data-aos][data-aos][data-aos-duration=\"250\"],body[data-aos-duration=\"250\"] [data-aos]{transition-duration:.25s}[data-aos][data-aos][data-aos-delay=\"250\"],body[data-aos-delay=\"250\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"250\"].aos-animate,body[data-aos-delay=\"250\"] [data-aos].aos-animate{transition-delay:.25s}[data-aos][data-aos][data-aos-duration=\"300\"],body[data-aos-duration=\"300\"] [data-aos]{transition-duration:.3s}[data-aos][data-aos][data-aos-delay=\"300\"],body[data-aos-delay=\"300\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"300\"].aos-animate,body[data-aos-delay=\"300\"] [data-aos].aos-animate{transition-delay:.3s}[data-aos][data-aos][data-aos-duration=\"350\"],body[data-aos-duration=\"350\"] [data-aos]{transition-duration:.35s}[data-aos][data-aos][data-aos-delay=\"350\"],body[data-aos-delay=\"350\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"350\"].aos-animate,body[data-aos-delay=\"350\"] [data-aos].aos-animate{transition-delay:.35s}[data-aos][data-aos][data-aos-duration=\"400\"],body[data-aos-duration=\"400\"] [data-aos]{transition-duration:.4s}[data-aos][data-aos][data-aos-delay=\"400\"],body[data-aos-delay=\"400\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"400\"].aos-animate,body[data-aos-delay=\"400\"] [data-aos].aos-animate{transition-delay:.4s}[data-aos][data-aos][data-aos-duration=\"450\"],body[data-aos-duration=\"450\"] [data-aos]{transition-duration:.45s}[data-aos][data-aos][data-aos-delay=\"450\"],body[data-aos-delay=\"450\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"450\"].aos-animate,body[data-aos-delay=\"450\"] [data-aos].aos-animate{transition-delay:.45s}[data-aos][data-aos][data-aos-duration=\"500\"],body[data-aos-duration=\"500\"] [data-aos]{transition-duration:.5s}[data-aos][data-aos][data-aos-delay=\"500\"],body[data-aos-delay=\"500\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"500\"].aos-animate,body[data-aos-delay=\"500\"] [data-aos].aos-animate{transition-delay:.5s}[data-aos][data-aos][data-aos-duration=\"550\"],body[data-aos-duration=\"550\"] [data-aos]{transition-duration:.55s}[data-aos][data-aos][data-aos-delay=\"550\"],body[data-aos-delay=\"550\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"550\"].aos-animate,body[data-aos-delay=\"550\"] [data-aos].aos-animate{transition-delay:.55s}[data-aos][data-aos][data-aos-duration=\"600\"],body[data-aos-duration=\"600\"] [data-aos]{transition-duration:.6s}[data-aos][data-aos][data-aos-delay=\"600\"],body[data-aos-delay=\"600\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"600\"].aos-animate,body[data-aos-delay=\"600\"] [data-aos].aos-animate{transition-delay:.6s}[data-aos][data-aos][data-aos-duration=\"650\"],body[data-aos-duration=\"650\"] [data-aos]{transition-duration:.65s}[data-aos][data-aos][data-aos-delay=\"650\"],body[data-aos-delay=\"650\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"650\"].aos-animate,body[data-aos-delay=\"650\"] [data-aos].aos-animate{transition-delay:.65s}[data-aos][data-aos][data-aos-duration=\"700\"],body[data-aos-duration=\"700\"] [data-aos]{transition-duration:.7s}[data-aos][data-aos][data-aos-delay=\"700\"],body[data-aos-delay=\"700\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"700\"].aos-animate,body[data-aos-delay=\"700\"] [data-aos].aos-animate{transition-delay:.7s}[data-aos][data-aos][data-aos-duration=\"750\"],body[data-aos-duration=\"750\"] [data-aos]{transition-duration:.75s}[data-aos][data-aos][data-aos-delay=\"750\"],body[data-aos-delay=\"750\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"750\"].aos-animate,body[data-aos-delay=\"750\"] [data-aos].aos-animate{transition-delay:.75s}[data-aos][data-aos][data-aos-duration=\"800\"],body[data-aos-duration=\"800\"] [data-aos]{transition-duration:.8s}[data-aos][data-aos][data-aos-delay=\"800\"],body[data-aos-delay=\"800\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"800\"].aos-animate,body[data-aos-delay=\"800\"] [data-aos].aos-animate{transition-delay:.8s}[data-aos][data-aos][data-aos-duration=\"850\"],body[data-aos-duration=\"850\"] [data-aos]{transition-duration:.85s}[data-aos][data-aos][data-aos-delay=\"850\"],body[data-aos-delay=\"850\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"850\"].aos-animate,body[data-aos-delay=\"850\"] [data-aos].aos-animate{transition-delay:.85s}[data-aos][data-aos][data-aos-duration=\"900\"],body[data-aos-duration=\"900\"] [data-aos]{transition-duration:.9s}[data-aos][data-aos][data-aos-delay=\"900\"],body[data-aos-delay=\"900\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"900\"].aos-animate,body[data-aos-delay=\"900\"] [data-aos].aos-animate{transition-delay:.9s}[data-aos][data-aos][data-aos-duration=\"950\"],body[data-aos-duration=\"950\"] [data-aos]{transition-duration:.95s}[data-aos][data-aos][data-aos-delay=\"950\"],body[data-aos-delay=\"950\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"950\"].aos-animate,body[data-aos-delay=\"950\"] [data-aos].aos-animate{transition-delay:.95s}[data-aos][data-aos][data-aos-duration=\"1000\"],body[data-aos-duration=\"1000\"] [data-aos]{transition-duration:1s}[data-aos][data-aos][data-aos-delay=\"1000\"],body[data-aos-delay=\"1000\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1000\"].aos-animate,body[data-aos-delay=\"1000\"] [data-aos].aos-animate{transition-delay:1s}[data-aos][data-aos][data-aos-duration=\"1050\"],body[data-aos-duration=\"1050\"] [data-aos]{transition-duration:1.05s}[data-aos][data-aos][data-aos-delay=\"1050\"],body[data-aos-delay=\"1050\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1050\"].aos-animate,body[data-aos-delay=\"1050\"] [data-aos].aos-animate{transition-delay:1.05s}[data-aos][data-aos][data-aos-duration=\"1100\"],body[data-aos-duration=\"1100\"] [data-aos]{transition-duration:1.1s}[data-aos][data-aos][data-aos-delay=\"1100\"],body[data-aos-delay=\"1100\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1100\"].aos-animate,body[data-aos-delay=\"1100\"] [data-aos].aos-animate{transition-delay:1.1s}[data-aos][data-aos][data-aos-duration=\"1150\"],body[data-aos-duration=\"1150\"] [data-aos]{transition-duration:1.15s}[data-aos][data-aos][data-aos-delay=\"1150\"],body[data-aos-delay=\"1150\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1150\"].aos-animate,body[data-aos-delay=\"1150\"] [data-aos].aos-animate{transition-delay:1.15s}[data-aos][data-aos][data-aos-duration=\"1200\"],body[data-aos-duration=\"1200\"] [data-aos]{transition-duration:1.2s}[data-aos][data-aos][data-aos-delay=\"1200\"],body[data-aos-delay=\"1200\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1200\"].aos-animate,body[data-aos-delay=\"1200\"] [data-aos].aos-animate{transition-delay:1.2s}[data-aos][data-aos][data-aos-duration=\"1250\"],body[data-aos-duration=\"1250\"] [data-aos]{transition-duration:1.25s}[data-aos][data-aos][data-aos-delay=\"1250\"],body[data-aos-delay=\"1250\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1250\"].aos-animate,body[data-aos-delay=\"1250\"] [data-aos].aos-animate{transition-delay:1.25s}[data-aos][data-aos][data-aos-duration=\"1300\"],body[data-aos-duration=\"1300\"] [data-aos]{transition-duration:1.3s}[data-aos][data-aos][data-aos-delay=\"1300\"],body[data-aos-delay=\"1300\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1300\"].aos-animate,body[data-aos-delay=\"1300\"] [data-aos].aos-animate{transition-delay:1.3s}[data-aos][data-aos][data-aos-duration=\"1350\"],body[data-aos-duration=\"1350\"] [data-aos]{transition-duration:1.35s}[data-aos][data-aos][data-aos-delay=\"1350\"],body[data-aos-delay=\"1350\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1350\"].aos-animate,body[data-aos-delay=\"1350\"] [data-aos].aos-animate{transition-delay:1.35s}[data-aos][data-aos][data-aos-duration=\"1400\"],body[data-aos-duration=\"1400\"] [data-aos]{transition-duration:1.4s}[data-aos][data-aos][data-aos-delay=\"1400\"],body[data-aos-delay=\"1400\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1400\"].aos-animate,body[data-aos-delay=\"1400\"] [data-aos].aos-animate{transition-delay:1.4s}[data-aos][data-aos][data-aos-duration=\"1450\"],body[data-aos-duration=\"1450\"] [data-aos]{transition-duration:1.45s}[data-aos][data-aos][data-aos-delay=\"1450\"],body[data-aos-delay=\"1450\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1450\"].aos-animate,body[data-aos-delay=\"1450\"] [data-aos].aos-animate{transition-delay:1.45s}[data-aos][data-aos][data-aos-duration=\"1500\"],body[data-aos-duration=\"1500\"] [data-aos]{transition-duration:1.5s}[data-aos][data-aos][data-aos-delay=\"1500\"],body[data-aos-delay=\"1500\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1500\"].aos-animate,body[data-aos-delay=\"1500\"] [data-aos].aos-animate{transition-delay:1.5s}[data-aos][data-aos][data-aos-duration=\"1550\"],body[data-aos-duration=\"1550\"] [data-aos]{transition-duration:1.55s}[data-aos][data-aos][data-aos-delay=\"1550\"],body[data-aos-delay=\"1550\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1550\"].aos-animate,body[data-aos-delay=\"1550\"] [data-aos].aos-animate{transition-delay:1.55s}[data-aos][data-aos][data-aos-duration=\"1600\"],body[data-aos-duration=\"1600\"] [data-aos]{transition-duration:1.6s}[data-aos][data-aos][data-aos-delay=\"1600\"],body[data-aos-delay=\"1600\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1600\"].aos-animate,body[data-aos-delay=\"1600\"] [data-aos].aos-animate{transition-delay:1.6s}[data-aos][data-aos][data-aos-duration=\"1650\"],body[data-aos-duration=\"1650\"] [data-aos]{transition-duration:1.65s}[data-aos][data-aos][data-aos-delay=\"1650\"],body[data-aos-delay=\"1650\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1650\"].aos-animate,body[data-aos-delay=\"1650\"] [data-aos].aos-animate{transition-delay:1.65s}[data-aos][data-aos][data-aos-duration=\"1700\"],body[data-aos-duration=\"1700\"] [data-aos]{transition-duration:1.7s}[data-aos][data-aos][data-aos-delay=\"1700\"],body[data-aos-delay=\"1700\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1700\"].aos-animate,body[data-aos-delay=\"1700\"] [data-aos].aos-animate{transition-delay:1.7s}[data-aos][data-aos][data-aos-duration=\"1750\"],body[data-aos-duration=\"1750\"] [data-aos]{transition-duration:1.75s}[data-aos][data-aos][data-aos-delay=\"1750\"],body[data-aos-delay=\"1750\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1750\"].aos-animate,body[data-aos-delay=\"1750\"] [data-aos].aos-animate{transition-delay:1.75s}[data-aos][data-aos][data-aos-duration=\"1800\"],body[data-aos-duration=\"1800\"] [data-aos]{transition-duration:1.8s}[data-aos][data-aos][data-aos-delay=\"1800\"],body[data-aos-delay=\"1800\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1800\"].aos-animate,body[data-aos-delay=\"1800\"] [data-aos].aos-animate{transition-delay:1.8s}[data-aos][data-aos][data-aos-duration=\"1850\"],body[data-aos-duration=\"1850\"] [data-aos]{transition-duration:1.85s}[data-aos][data-aos][data-aos-delay=\"1850\"],body[data-aos-delay=\"1850\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1850\"].aos-animate,body[data-aos-delay=\"1850\"] [data-aos].aos-animate{transition-delay:1.85s}[data-aos][data-aos][data-aos-duration=\"1900\"],body[data-aos-duration=\"1900\"] [data-aos]{transition-duration:1.9s}[data-aos][data-aos][data-aos-delay=\"1900\"],body[data-aos-delay=\"1900\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1900\"].aos-animate,body[data-aos-delay=\"1900\"] [data-aos].aos-animate{transition-delay:1.9s}[data-aos][data-aos][data-aos-duration=\"1950\"],body[data-aos-duration=\"1950\"] [data-aos]{transition-duration:1.95s}[data-aos][data-aos][data-aos-delay=\"1950\"],body[data-aos-delay=\"1950\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"1950\"].aos-animate,body[data-aos-delay=\"1950\"] [data-aos].aos-animate{transition-delay:1.95s}[data-aos][data-aos][data-aos-duration=\"2000\"],body[data-aos-duration=\"2000\"] [data-aos]{transition-duration:2s}[data-aos][data-aos][data-aos-delay=\"2000\"],body[data-aos-delay=\"2000\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2000\"].aos-animate,body[data-aos-delay=\"2000\"] [data-aos].aos-animate{transition-delay:2s}[data-aos][data-aos][data-aos-duration=\"2050\"],body[data-aos-duration=\"2050\"] [data-aos]{transition-duration:2.05s}[data-aos][data-aos][data-aos-delay=\"2050\"],body[data-aos-delay=\"2050\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2050\"].aos-animate,body[data-aos-delay=\"2050\"] [data-aos].aos-animate{transition-delay:2.05s}[data-aos][data-aos][data-aos-duration=\"2100\"],body[data-aos-duration=\"2100\"] [data-aos]{transition-duration:2.1s}[data-aos][data-aos][data-aos-delay=\"2100\"],body[data-aos-delay=\"2100\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2100\"].aos-animate,body[data-aos-delay=\"2100\"] [data-aos].aos-animate{transition-delay:2.1s}[data-aos][data-aos][data-aos-duration=\"2150\"],body[data-aos-duration=\"2150\"] [data-aos]{transition-duration:2.15s}[data-aos][data-aos][data-aos-delay=\"2150\"],body[data-aos-delay=\"2150\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2150\"].aos-animate,body[data-aos-delay=\"2150\"] [data-aos].aos-animate{transition-delay:2.15s}[data-aos][data-aos][data-aos-duration=\"2200\"],body[data-aos-duration=\"2200\"] [data-aos]{transition-duration:2.2s}[data-aos][data-aos][data-aos-delay=\"2200\"],body[data-aos-delay=\"2200\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2200\"].aos-animate,body[data-aos-delay=\"2200\"] [data-aos].aos-animate{transition-delay:2.2s}[data-aos][data-aos][data-aos-duration=\"2250\"],body[data-aos-duration=\"2250\"] [data-aos]{transition-duration:2.25s}[data-aos][data-aos][data-aos-delay=\"2250\"],body[data-aos-delay=\"2250\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2250\"].aos-animate,body[data-aos-delay=\"2250\"] [data-aos].aos-animate{transition-delay:2.25s}[data-aos][data-aos][data-aos-duration=\"2300\"],body[data-aos-duration=\"2300\"] [data-aos]{transition-duration:2.3s}[data-aos][data-aos][data-aos-delay=\"2300\"],body[data-aos-delay=\"2300\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2300\"].aos-animate,body[data-aos-delay=\"2300\"] [data-aos].aos-animate{transition-delay:2.3s}[data-aos][data-aos][data-aos-duration=\"2350\"],body[data-aos-duration=\"2350\"] [data-aos]{transition-duration:2.35s}[data-aos][data-aos][data-aos-delay=\"2350\"],body[data-aos-delay=\"2350\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2350\"].aos-animate,body[data-aos-delay=\"2350\"] [data-aos].aos-animate{transition-delay:2.35s}[data-aos][data-aos][data-aos-duration=\"2400\"],body[data-aos-duration=\"2400\"] [data-aos]{transition-duration:2.4s}[data-aos][data-aos][data-aos-delay=\"2400\"],body[data-aos-delay=\"2400\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2400\"].aos-animate,body[data-aos-delay=\"2400\"] [data-aos].aos-animate{transition-delay:2.4s}[data-aos][data-aos][data-aos-duration=\"2450\"],body[data-aos-duration=\"2450\"] [data-aos]{transition-duration:2.45s}[data-aos][data-aos][data-aos-delay=\"2450\"],body[data-aos-delay=\"2450\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2450\"].aos-animate,body[data-aos-delay=\"2450\"] [data-aos].aos-animate{transition-delay:2.45s}[data-aos][data-aos][data-aos-duration=\"2500\"],body[data-aos-duration=\"2500\"] [data-aos]{transition-duration:2.5s}[data-aos][data-aos][data-aos-delay=\"2500\"],body[data-aos-delay=\"2500\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2500\"].aos-animate,body[data-aos-delay=\"2500\"] [data-aos].aos-animate{transition-delay:2.5s}[data-aos][data-aos][data-aos-duration=\"2550\"],body[data-aos-duration=\"2550\"] [data-aos]{transition-duration:2.55s}[data-aos][data-aos][data-aos-delay=\"2550\"],body[data-aos-delay=\"2550\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2550\"].aos-animate,body[data-aos-delay=\"2550\"] [data-aos].aos-animate{transition-delay:2.55s}[data-aos][data-aos][data-aos-duration=\"2600\"],body[data-aos-duration=\"2600\"] [data-aos]{transition-duration:2.6s}[data-aos][data-aos][data-aos-delay=\"2600\"],body[data-aos-delay=\"2600\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2600\"].aos-animate,body[data-aos-delay=\"2600\"] [data-aos].aos-animate{transition-delay:2.6s}[data-aos][data-aos][data-aos-duration=\"2650\"],body[data-aos-duration=\"2650\"] [data-aos]{transition-duration:2.65s}[data-aos][data-aos][data-aos-delay=\"2650\"],body[data-aos-delay=\"2650\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2650\"].aos-animate,body[data-aos-delay=\"2650\"] [data-aos].aos-animate{transition-delay:2.65s}[data-aos][data-aos][data-aos-duration=\"2700\"],body[data-aos-duration=\"2700\"] [data-aos]{transition-duration:2.7s}[data-aos][data-aos][data-aos-delay=\"2700\"],body[data-aos-delay=\"2700\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2700\"].aos-animate,body[data-aos-delay=\"2700\"] [data-aos].aos-animate{transition-delay:2.7s}[data-aos][data-aos][data-aos-duration=\"2750\"],body[data-aos-duration=\"2750\"] [data-aos]{transition-duration:2.75s}[data-aos][data-aos][data-aos-delay=\"2750\"],body[data-aos-delay=\"2750\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2750\"].aos-animate,body[data-aos-delay=\"2750\"] [data-aos].aos-animate{transition-delay:2.75s}[data-aos][data-aos][data-aos-duration=\"2800\"],body[data-aos-duration=\"2800\"] [data-aos]{transition-duration:2.8s}[data-aos][data-aos][data-aos-delay=\"2800\"],body[data-aos-delay=\"2800\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2800\"].aos-animate,body[data-aos-delay=\"2800\"] [data-aos].aos-animate{transition-delay:2.8s}[data-aos][data-aos][data-aos-duration=\"2850\"],body[data-aos-duration=\"2850\"] [data-aos]{transition-duration:2.85s}[data-aos][data-aos][data-aos-delay=\"2850\"],body[data-aos-delay=\"2850\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2850\"].aos-animate,body[data-aos-delay=\"2850\"] [data-aos].aos-animate{transition-delay:2.85s}[data-aos][data-aos][data-aos-duration=\"2900\"],body[data-aos-duration=\"2900\"] [data-aos]{transition-duration:2.9s}[data-aos][data-aos][data-aos-delay=\"2900\"],body[data-aos-delay=\"2900\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2900\"].aos-animate,body[data-aos-delay=\"2900\"] [data-aos].aos-animate{transition-delay:2.9s}[data-aos][data-aos][data-aos-duration=\"2950\"],body[data-aos-duration=\"2950\"] [data-aos]{transition-duration:2.95s}[data-aos][data-aos][data-aos-delay=\"2950\"],body[data-aos-delay=\"2950\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"2950\"].aos-animate,body[data-aos-delay=\"2950\"] [data-aos].aos-animate{transition-delay:2.95s}[data-aos][data-aos][data-aos-duration=\"3000\"],body[data-aos-duration=\"3000\"] [data-aos]{transition-duration:3s}[data-aos][data-aos][data-aos-delay=\"3000\"],body[data-aos-delay=\"3000\"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay=\"3000\"].aos-animate,body[data-aos-delay=\"3000\"] [data-aos].aos-animate{transition-delay:3s}[data-aos][data-aos][data-aos-easing=linear],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-easing=ease] [data-aos]{transition-timing-function:ease}[data-aos][data-aos][data-aos-easing=ease-in],body[data-aos-easing=ease-in] [data-aos]{transition-timing-function:ease-in}[data-aos][data-aos][data-aos-easing=ease-out],body[data-aos-easing=ease-out] [data-aos]{transition-timing-function:ease-out}[data-aos][data-aos][data-aos-easing=ease-in-out],body[data-aos-easing=ease-in-out] [data-aos]{transition-timing-function:ease-in-out}[data-aos][data-aos][data-aos-easing=ease-in-back],body[data-aos-easing=ease-in-back] [data-aos]{transition-timing-function:cubic-bezier(.6,-.28,.735,.045)}[data-aos][data-aos][data-aos-easing=ease-out-back],body[data-aos-easing=ease-out-back] [data-aos]{transition-timing-function:cubic-bezier(.175,.885,.32,1.275)}[data-aos][data-aos][data-aos-easing=ease-in-out-back],body[data-aos-easing=ease-in-out-back] [data-aos]{transition-timing-function:cubic-bezier(.68,-.55,.265,1.55)}[data-aos][data-aos][data-aos-easing=ease-in-sine],body[data-aos-easing=ease-in-sine] [data-aos]{transition-timing-function:cubic-bezier(.47,0,.745,.715)}[data-aos][data-aos][data-aos-easing=ease-out-sine],body[data-aos-easing=ease-out-sine] [data-aos]{transition-timing-function:cubic-bezier(.39,.575,.565,1)}[data-aos][data-aos][data-aos-easing=ease-in-out-sine],body[data-aos-easing=ease-in-out-sine] [data-aos]{transition-timing-function:cubic-bezier(.445,.05,.55,.95)}[data-aos][data-aos][data-aos-easing=ease-in-quad],body[data-aos-easing=ease-in-quad] [data-aos]{transition-timing-function:cubic-bezier(.55,.085,.68,.53)}[data-aos][data-aos][data-aos-easing=ease-out-quad],body[data-aos-easing=ease-out-quad] [data-aos]{transition-timing-function:cubic-bezier(.25,.46,.45,.94)}[data-aos][data-aos][data-aos-easing=ease-in-out-quad],body[data-aos-easing=ease-in-out-quad] [data-aos]{transition-timing-function:cubic-bezier(.455,.03,.515,.955)}[data-aos][data-aos][data-aos-easing=ease-in-cubic],body[data-aos-easing=ease-in-cubic] [data-aos]{transition-timing-function:cubic-bezier(.55,.085,.68,.53)}[data-aos][data-aos][data-aos-easing=ease-out-cubic],body[data-aos-easing=ease-out-cubic] [data-aos]{transition-timing-function:cubic-bezier(.25,.46,.45,.94)}[data-aos][data-aos][data-aos-easing=ease-in-out-cubic],body[data-aos-easing=ease-in-out-cubic] [data-aos]{transition-timing-function:cubic-bezier(.455,.03,.515,.955)}[data-aos][data-aos][data-aos-easing=ease-in-quart],body[data-aos-easing=ease-in-quart] [data-aos]{transition-timing-function:cubic-bezier(.55,.085,.68,.53)}[data-aos][data-aos][data-aos-easing=ease-out-quart],body[data-aos-easing=ease-out-quart] [data-aos]{transition-timing-function:cubic-bezier(.25,.46,.45,.94)}[data-aos][data-aos][data-aos-easing=ease-in-out-quart],body[data-aos-easing=ease-in-out-quart] [data-aos]{transition-timing-function:cubic-bezier(.455,.03,.515,.955)}[data-aos^=fade][data-aos^=fade]{opacity:0;transition-property:opacity,transform}[data-aos^=fade][data-aos^=fade].aos-animate{opacity:1;transform:translateZ(0)}[data-aos=fade-up]{transform:translate3d(0,100px,0)}[data-aos=fade-down]{transform:translate3d(0,-100px,0)}[data-aos=fade-right]{transform:translate3d(-100px,0,0)}[data-aos=fade-left]{transform:translate3d(100px,0,0)}[data-aos=fade-up-right]{transform:translate3d(-100px,100px,0)}[data-aos=fade-up-left]{transform:translate3d(100px,100px,0)}[data-aos=fade-down-right]{transform:translate3d(-100px,-100px,0)}[data-aos=fade-down-left]{transform:translate3d(100px,-100px,0)}[data-aos^=zoom][data-aos^=zoom]{opacity:0;transition-property:opacity,transform}[data-aos^=zoom][data-aos^=zoom].aos-animate{opacity:1;transform:translateZ(0) scale(1)}[data-aos=zoom-in]{transform:scale(.6)}[data-aos=zoom-in-up]{transform:translate3d(0,100px,0) scale(.6)}[data-aos=zoom-in-down]{transform:translate3d(0,-100px,0) scale(.6)}[data-aos=zoom-in-right]{transform:translate3d(-100px,0,0) scale(.6)}[data-aos=zoom-in-left]{transform:translate3d(100px,0,0) scale(.6)}[data-aos=zoom-out]{transform:scale(1.2)}[data-aos=zoom-out-up]{transform:translate3d(0,100px,0) scale(1.2)}[data-aos=zoom-out-down]{transform:translate3d(0,-100px,0) scale(1.2)}[data-aos=zoom-out-right]{transform:translate3d(-100px,0,0) scale(1.2)}[data-aos=zoom-out-left]{transform:translate3d(100px,0,0) scale(1.2)}[data-aos^=slide][data-aos^=slide]{transition-property:transform}[data-aos^=slide][data-aos^=slide].aos-animate{transform:translateZ(0)}[data-aos=slide-up]{transform:translate3d(0,100%,0)}[data-aos=slide-down]{transform:translate3d(0,-100%,0)}[data-aos=slide-right]{transform:translate3d(-100%,0,0)}[data-aos=slide-left]{transform:translate3d(100%,0,0)}[data-aos^=flip][data-aos^=flip]{-webkit-backface-visibility:hidden;backface-visibility:hidden;transition-property:transform}[data-aos=flip-left]{transform:perspective(2500px) rotateY(-100deg)}[data-aos=flip-left].aos-animate{transform:perspective(2500px) rotateY(0)}[data-aos=flip-right]{transform:perspective(2500px) rotateY(100deg)}[data-aos=flip-right].aos-animate{transform:perspective(2500px) rotateY(0)}[data-aos=flip-up]{transform:perspective(2500px) rotateX(-100deg)}[data-aos=flip-up].aos-animate{transform:perspective(2500px) rotateX(0)}[data-aos=flip-down]{transform:perspective(2500px) rotateX(100deg)}[data-aos=flip-down].aos-animate{transform:perspective(2500px) rotateX(0)}", ""]);
 

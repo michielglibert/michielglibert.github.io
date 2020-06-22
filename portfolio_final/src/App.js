@@ -6,7 +6,6 @@ import styled from "styled-components";
 import AOS from "aos";
 import Main from "./components/Main";
 import Cv from "./components/Cv";
-import cvprint from "./components/cvprint";
 
 // Style imports
 import "./app.css";
@@ -32,7 +31,6 @@ class App extends Component {
 					<Switch>
 						<Route path="/" exact={true} component={Main} />
 						<Route path="/cv" exact={true} component={Cv} />
-						<Route path="/cvprint" exact={true} component={cvprint} />
 						<Route render={() => <Routes />} />
 					</Switch>
 				</SiteWrapper>

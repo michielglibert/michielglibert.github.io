@@ -235,7 +235,7 @@ const Periode = styled.p`
 	margin: 0;
 	font-size: 10pt;
 	font-weight: 400;
-	color: lightgrey;
+	color: grey;
 `;
 
 const Beschrijving = styled.div`
