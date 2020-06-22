@@ -100,8 +100,11 @@ const Description = styled.h3`
 	margin: 0;
 `;
 
-const LinkRouterStyled = styled(LinkRouter)`
+const LinkBox = styled.div`
 	margin-top: 16px;
+`;
+
+const LinkRouterStyled = styled(LinkRouter)`
 	font-size: 20pt;
 `;
 
@@ -135,7 +138,9 @@ export class Intro extends Component {
 						<TextWrapper>
 							<Title>Hi!</Title>
 							<Description>Ik ben Michiel Glibert</Description>
-							<LinkRouterStyled to="/cv">Bekijk mijn CV</LinkRouterStyled>
+							<LinkBox>
+								<LinkRouterStyled to="/cv">Bekijk mijn CV</LinkRouterStyled>
+							</LinkBox>
 						</TextWrapper>
 					</IntroCard>
 					<ChevronWrapper

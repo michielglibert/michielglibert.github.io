@@ -7,6 +7,7 @@ import { ProgressBar } from "react-bootstrap";
 const Wrapper = styled.div`
 	margin: 0 auto;
 	padding: 16px;
+	padding-bottom: 64px;
 	max-width: 1000px;
 
 	@media screen and (max-width: 1000px) {
@@ -275,6 +276,18 @@ export class Cv extends Component {
 	render() {
 		return (
 			<Wrapper>
+				<TextBox>
+					<Back>
+						<Link to="/">
+							<i className="fas fa-long-arrow-alt-left"></i>Terug naar mijn
+							website
+						</Link>
+					</Back>
+					<Print onClick={this.printArea}>
+						<i className="fas fa-print"></i>
+						Printen
+					</Print>
+				</TextBox>
 				<CvWrapper id="printableArea">
 					<HeaderWrapper>
 						<ProPic>
