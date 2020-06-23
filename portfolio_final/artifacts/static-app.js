@@ -1101,7 +1101,7 @@ function About_templateObject4() {
 }
 
 function About_templateObject3() {
-  var data = taggedTemplateLiteral_default()(["\n\twidth: 75%;\n\tpadding: 16px;\n\t@media screen and (max-width: 1260px) {\n\t\twidth: 100%;\n\t\tpadding: 0;\n\t}\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\twidth: 75%;\n\tpadding: 16px;\n\t@media screen and (max-width: 1260px) {\n\t\twidth: 100%;\n\t\tpadding: 8px;\n\t}\n"]);
 
   About_templateObject3 = function _templateObject3() {
     return data;
@@ -1560,7 +1560,7 @@ function Projects_templateObject7() {
 }
 
 function Projects_templateObject6() {
-  var data = taggedTemplateLiteral_default()(["\n\twidth: 60%;\n\tpadding: 16px;\n\t@media screen and (max-width: 1200px) {\n\t\twidth: 100%;\n\t\tpadding: 0;\n\t}\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\twidth: 60%;\n\tpadding: 16px;\n\t@media screen and (max-width: 1200px) {\n\t\twidth: 100%;\n\t\tpadding: 8px;\n\t}\n"]);
 
   Projects_templateObject6 = function _templateObject6() {
     return data;
@@ -1977,8 +1977,18 @@ function Cv_createSuper(Derived) { var hasNativeReflectConstruct = Cv_isNativeRe
 
 function Cv_isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
-function _templateObject33() {
+function _templateObject34() {
   var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tmargin-top: 8px;\n\tfont-size: 12pt;\n\tfont-weight: 700;\n"]);
+
+  _templateObject34 = function _templateObject34() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject33() {
+  var data = taggedTemplateLiteral_default()(["\n\tfont-size: 9pt;\n\tfont-weight: 500;\n\tbackground-color: #1f3b4d;\n\tcolor: white;\n\tborder-radius: 30px;\n\tdisplay: inline-block;\n\tpadding: 2px 6px;\n\tmargin-right: 8px;\n"]);
 
   _templateObject33 = function _templateObject33() {
     return data;
@@ -1988,7 +1998,7 @@ function _templateObject33() {
 }
 
 function _templateObject32() {
-  var data = taggedTemplateLiteral_default()(["\n\tfont-size: 9pt;\n\tfont-weight: 500;\n\tbackground-color: #1f3b4d;\n\tcolor: white;\n\tborder-radius: 30px;\n\tdisplay: inline-block;\n\tpadding: 2px 6px;\n\tmargin-right: 8px;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\tmargin: 4px 0px;\n\tfont-size: 12pt;\n"]);
 
   _templateObject32 = function _templateObject32() {
     return data;
@@ -1998,7 +2008,7 @@ function _templateObject32() {
 }
 
 function _templateObject31() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 4px 0px;\n\tfont-size: 12pt;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tfont-size: 10pt;\n\tfont-weight: 400;\n\tcolor: grey;\n"]);
 
   _templateObject31 = function _templateObject31() {
     return data;
@@ -2008,7 +2018,7 @@ function _templateObject31() {
 }
 
 function _templateObject30() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tfont-size: 10pt;\n\tfont-weight: 400;\n\tcolor: grey;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tfont-size: 13pt;\n\tfont-weight: 500;\n"]);
 
   _templateObject30 = function _templateObject30() {
     return data;
@@ -2018,7 +2028,7 @@ function _templateObject30() {
 }
 
 function _templateObject29() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tfont-size: 13pt;\n\tfont-weight: 500;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tfont-size: 15pt;\n\tfont-weight: 700;\n"]);
 
   _templateObject29 = function _templateObject29() {
     return data;
@@ -2028,7 +2038,7 @@ function _templateObject29() {
 }
 
 function _templateObject28() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 0;\n\tfont-size: 15pt;\n\tfont-weight: 700;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\tmargin: 16px 0;\n"]);
 
   _templateObject28 = function _templateObject28() {
     return data;
@@ -2118,7 +2128,7 @@ function _templateObject20() {
 }
 
 function _templateObject19() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 8px 0 16px 0;\n\tborder-bottom: solid black 1px;\n\ttext-transform: uppercase;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\tmargin: 16px 0;\n\tborder-bottom: solid black 1px;\n\ttext-transform: uppercase;\n"]);
 
   _templateObject19 = function _templateObject19() {
     return data;
@@ -2138,7 +2148,7 @@ function _templateObject18() {
 }
 
 function _templateObject17() {
-  var data = taggedTemplateLiteral_default()(["\n\tpadding: 16px 48px 32px 48px;\n\tcolor: #1f3b4d;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\tpadding: 16px 48px 32px 48px;\n\tcolor: #1f3b4d;\n\t@media screen and (max-width: 1200px) {\n\t\twidth: 100%;\n\t\tpadding: 16px 24px 32px 24px;\n\t}\n"]);
 
   _templateObject17 = function _templateObject17() {
     return data;
@@ -2339,12 +2349,13 @@ var Skill = external_styled_components_default.a.div(_templateObject24());
 var Cv_Subtitle = external_styled_components_default.a.h4(_templateObject25());
 var ProgressBarStyled = external_styled_components_default()(external_react_bootstrap_["ProgressBar"])(_templateObject26());
 var Opleiding = external_styled_components_default.a.div(_templateObject27());
-var OpleidingNaam = external_styled_components_default.a.h4(_templateObject28());
-var Bedrijf = external_styled_components_default.a.p(_templateObject29());
-var Periode = external_styled_components_default.a.p(_templateObject30());
-var Beschrijving = external_styled_components_default.a.div(_templateObject31());
-var Tag = external_styled_components_default.a.div(_templateObject32());
-var UsedTech = external_styled_components_default.a.div(_templateObject33());
+var Talen = external_styled_components_default.a.div(_templateObject28());
+var OpleidingNaam = external_styled_components_default.a.h4(_templateObject29());
+var Bedrijf = external_styled_components_default.a.p(_templateObject30());
+var Periode = external_styled_components_default.a.p(_templateObject31());
+var Beschrijving = external_styled_components_default.a.div(_templateObject32());
+var Tag = external_styled_components_default.a.div(_templateObject33());
+var UsedTech = external_styled_components_default.a.div(_templateObject34());
 var Cv_Cv = /*#__PURE__*/function (_Component) {
   inherits_default()(Cv, _Component);
 
@@ -2445,7 +2456,7 @@ var Cv_Cv = /*#__PURE__*/function (_Component) {
       })), /*#__PURE__*/external_react_default.a.createElement(Skill, null, /*#__PURE__*/external_react_default.a.createElement(SkillName, null, "Machine learning en AI"), /*#__PURE__*/external_react_default.a.createElement(ProgressBarStyled, {
         variant: "info",
         now: 55
-      })), /*#__PURE__*/external_react_default.a.createElement(Cv_Subtitle, null, "Verder nog"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "Git"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "Bash"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "Perl"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "Assembly"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "AWS"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "RDF"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "Blockchain"), /*#__PURE__*/external_react_default.a.createElement(Cv_Title, null, "Talen"), /*#__PURE__*/external_react_default.a.createElement(SkillName, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Nederlands"), " (Moedertaal)"), /*#__PURE__*/external_react_default.a.createElement(SkillName, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Engels"), " (Zeer goede kennis)"), /*#__PURE__*/external_react_default.a.createElement(SkillName, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Frans"), " (Algemene kennis)"), /*#__PURE__*/external_react_default.a.createElement(SkillName, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Duits"), " (Geringe kennis)")), /*#__PURE__*/external_react_default.a.createElement(Experience, null, /*#__PURE__*/external_react_default.a.createElement(Cv_Title, null, "Ervaring"), /*#__PURE__*/external_react_default.a.createElement(Opleiding, null, /*#__PURE__*/external_react_default.a.createElement(OpleidingNaam, null, "Stage: Full Stack Developer"), /*#__PURE__*/external_react_default.a.createElement(Bedrijf, null, "Kayzr"), /*#__PURE__*/external_react_default.a.createElement(Periode, null, "februari 2018 - mei 2018"), /*#__PURE__*/external_react_default.a.createElement(Beschrijving, null, "Tijdens mijn hogeschool opleiding was het niet alleen belangrijk om veel bij te leren on-campus, maar ook om veel bij te leren op de werkvloer. Zo deed ik mijn stage bij Kayzr, een E-sports platform. Daar mocht ik aan de slag als Full Stack Developer voor zowel de website als voor de mobiele applicatie.", /*#__PURE__*/external_react_default.a.createElement(UsedTech, null, "Gebruikte technologie\xEBn"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "React"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "React Native"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "Node.JS"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "OrientDB"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "HTML/CSS/Javascript"))), /*#__PURE__*/external_react_default.a.createElement(Cv_Title, null, "Opleidingen"), /*#__PURE__*/external_react_default.a.createElement(Opleiding, null, /*#__PURE__*/external_react_default.a.createElement(OpleidingNaam, null, "Master of Science in de industri\xEBle wetenschappen: informatica"), /*#__PURE__*/external_react_default.a.createElement(Bedrijf, null, "Universiteit Gent"), /*#__PURE__*/external_react_default.a.createElement(Periode, null, "2019-2020"), /*#__PURE__*/external_react_default.a.createElement(Beschrijving, null, "Als vervolg op mijn schakelprogramma naar de industri\xEBle wetenschappen informatica begon ik aan mijn masterjaar in 2019. Om dit met succes te kunnen afronden heb ik een masterproef geschreven over de analyse van op blockchain gebaseerde software ter opslag van herkomstinformatie.")), /*#__PURE__*/external_react_default.a.createElement(Opleiding, null, /*#__PURE__*/external_react_default.a.createElement(OpleidingNaam, null, "Schakelprogramma tot de industri\xEBle wetenschappen: informatica"), /*#__PURE__*/external_react_default.a.createElement(Bedrijf, null, "Universiteit Gent"), /*#__PURE__*/external_react_default.a.createElement(Periode, null, "2018-2019"), /*#__PURE__*/external_react_default.a.createElement(Beschrijving, null, "In 2018 had ik de keuze gemaakt om als vervolg op mijn hogeschool opleiding een schakelprogramma te starten aan de Universiteit Gent. Ik wou graag mijn kennis nog verder uitbreiden om zo, naast de hands-on ervaring die ik heb opgedaan op de hogeschool, mijn theoretische achtergrond op het gebied van informatica te verbeteren.")), /*#__PURE__*/external_react_default.a.createElement(Opleiding, null, /*#__PURE__*/external_react_default.a.createElement(OpleidingNaam, null, "Bachelor in de Toegepaste informatica"), /*#__PURE__*/external_react_default.a.createElement(Bedrijf, null, "Hogeschool Gent"), /*#__PURE__*/external_react_default.a.createElement(Periode, null, "2015-2018"), /*#__PURE__*/external_react_default.a.createElement(Beschrijving, null, "In 2015 had ik de keuze gemaakt om mijn carri\xE8re te starten als informaticus door de opleiding toegepaste informatica te volgen. Deze opleiding heeft van mijn interesse, informatica, mijn vakgebied gemaakt door het grote aanbood aan praktische opleidingsonderdelen. Om deze opleiding met succes af te ronden schreef ik een bachelorproef omtrent React 360, een framework om mobile virtual reality applicaties te bouwen.")))))));
+      })), /*#__PURE__*/external_react_default.a.createElement(Cv_Subtitle, null, "Verder nog"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "Git"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "Bash"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "Perl"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "Assembly"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "AWS"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "RDF"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "Blockchain"), /*#__PURE__*/external_react_default.a.createElement(Cv_Title, null, "Talen"), /*#__PURE__*/external_react_default.a.createElement(Talen, null, /*#__PURE__*/external_react_default.a.createElement(SkillName, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Nederlands"), " (Moedertaal)"), /*#__PURE__*/external_react_default.a.createElement(SkillName, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Engels"), " (Zeer goede kennis)"), /*#__PURE__*/external_react_default.a.createElement(SkillName, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Frans"), " (Algemene kennis)"), /*#__PURE__*/external_react_default.a.createElement(SkillName, null, /*#__PURE__*/external_react_default.a.createElement("b", null, "Duits"), " (Geringe kennis)"))), /*#__PURE__*/external_react_default.a.createElement(Experience, null, /*#__PURE__*/external_react_default.a.createElement(Cv_Title, null, "Ervaring"), /*#__PURE__*/external_react_default.a.createElement(Opleiding, null, /*#__PURE__*/external_react_default.a.createElement(OpleidingNaam, null, "Stage: Full Stack Developer"), /*#__PURE__*/external_react_default.a.createElement(Bedrijf, null, "Kayzr"), /*#__PURE__*/external_react_default.a.createElement(Periode, null, "februari 2018 - mei 2018"), /*#__PURE__*/external_react_default.a.createElement(Beschrijving, null, "Tijdens mijn hogeschool opleiding was het niet alleen belangrijk om veel bij te leren on-campus, maar ook om veel bij te leren op de werkvloer. Zo deed ik mijn stage bij Kayzr, een E-sports platform. Daar mocht ik aan de slag als Full Stack Developer voor zowel de website als voor de mobiele applicatie.", /*#__PURE__*/external_react_default.a.createElement(UsedTech, null, "Gebruikte technologie\xEBn"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "React"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "React Native"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "Node.JS"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "OrientDB"), /*#__PURE__*/external_react_default.a.createElement(Tag, null, "HTML/CSS/Javascript"))), /*#__PURE__*/external_react_default.a.createElement(Cv_Title, null, "Opleidingen"), /*#__PURE__*/external_react_default.a.createElement(Opleiding, null, /*#__PURE__*/external_react_default.a.createElement(OpleidingNaam, null, "Master of Science in de industri\xEBle wetenschappen: informatica"), /*#__PURE__*/external_react_default.a.createElement(Bedrijf, null, "Universiteit Gent"), /*#__PURE__*/external_react_default.a.createElement(Periode, null, "2019-2020"), /*#__PURE__*/external_react_default.a.createElement(Beschrijving, null, "Als vervolg op mijn schakelprogramma naar de industri\xEBle wetenschappen informatica begon ik aan mijn masterjaar in 2019. Om dit met succes te kunnen afronden heb ik een masterproef geschreven over de analyse van op blockchain gebaseerde software ter opslag van herkomstinformatie.")), /*#__PURE__*/external_react_default.a.createElement(Opleiding, null, /*#__PURE__*/external_react_default.a.createElement(OpleidingNaam, null, "Schakelprogramma tot de industri\xEBle wetenschappen: informatica"), /*#__PURE__*/external_react_default.a.createElement(Bedrijf, null, "Universiteit Gent"), /*#__PURE__*/external_react_default.a.createElement(Periode, null, "2018-2019"), /*#__PURE__*/external_react_default.a.createElement(Beschrijving, null, "In 2018 had ik de keuze gemaakt om als vervolg op mijn hogeschool opleiding een schakelprogramma te starten aan de Universiteit Gent. Ik wou graag mijn kennis nog verder uitbreiden om zo, naast de hands-on ervaring die ik heb opgedaan op de hogeschool, mijn theoretische achtergrond op het gebied van informatica te verbeteren.")), /*#__PURE__*/external_react_default.a.createElement(Opleiding, null, /*#__PURE__*/external_react_default.a.createElement(OpleidingNaam, null, "Bachelor in de Toegepaste informatica"), /*#__PURE__*/external_react_default.a.createElement(Bedrijf, null, "Hogeschool Gent"), /*#__PURE__*/external_react_default.a.createElement(Periode, null, "2015-2018"), /*#__PURE__*/external_react_default.a.createElement(Beschrijving, null, "In 2015 had ik de keuze gemaakt om mijn carri\xE8re te starten als informaticus door de opleiding toegepaste informatica te volgen. Deze opleiding heeft van mijn interesse, informatica, mijn vakgebied gemaakt door het grote aanbood aan praktische opleidingsonderdelen. Om deze opleiding met succes af te ronden schreef ik een bachelorproef omtrent React 360, een framework om mobile virtual reality applicaties te bouwen.")))))));
     }
   }]);
 

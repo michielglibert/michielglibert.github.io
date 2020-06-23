@@ -58,7 +58,7 @@ const ProjectContent = styled.div`
 	padding: 16px;
 	@media screen and (max-width: 1200px) {
 		width: 100%;
-		padding: 0;
+		padding: 8px;
 	}
 `;
 

@@ -158,12 +158,16 @@ const Links = styled.div`
 const BodyWrapper = styled.div`
 	padding: 16px 48px 32px 48px;
 	color: #1f3b4d;
+	@media screen and (max-width: 1200px) {
+		width: 100%;
+		padding: 16px 24px 32px 24px;
+	}
 `;
 
 const Summary = styled.div``;
 
 const Title = styled.h3`
-	margin: 8px 0 16px 0;
+	margin: 16px 0;
 	border-bottom: solid black 1px;
 	text-transform: uppercase;
 `;
@@ -217,6 +221,10 @@ const ProgressBarStyled = styled(ProgressBar)`
 const Opleiding = styled.div`
 	margin: 16px 0;
 	margin-bottom: 32px;
+`;
+
+const Talen = styled.div`
+	margin: 16px 0;
 `;
 
 const OpleidingNaam = styled.h4`
@@ -419,18 +427,20 @@ export class Cv extends Component {
 								<Tag>RDF</Tag>
 								<Tag>Blockchain</Tag>
 								<Title>Talen</Title>
-								<SkillName>
-									<b>Nederlands</b> (Moedertaal)
-								</SkillName>
-								<SkillName>
-									<b>Engels</b> (Zeer goede kennis)
-								</SkillName>
-								<SkillName>
-									<b>Frans</b> (Algemene kennis)
-								</SkillName>
-								<SkillName>
-									<b>Duits</b> (Geringe kennis)
-								</SkillName>
+								<Talen>
+									<SkillName>
+										<b>Nederlands</b> (Moedertaal)
+									</SkillName>
+									<SkillName>
+										<b>Engels</b> (Zeer goede kennis)
+									</SkillName>
+									<SkillName>
+										<b>Frans</b> (Algemene kennis)
+									</SkillName>
+									<SkillName>
+										<b>Duits</b> (Geringe kennis)
+									</SkillName>
+								</Talen>
 							</Sidebar>
 							<Experience>
 								<Title>Ervaring</Title>
