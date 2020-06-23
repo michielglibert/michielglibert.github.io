@@ -1318,7 +1318,7 @@ function Career_createSuper(Derived) { var hasNativeReflectConstruct = Career_is
 function Career_isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function Career_templateObject5() {
-  var data = taggedTemplateLiteral_default()(["\n\t@media screen and (max-width: 767px) {\n\t\tfont-size: 10pt;\n\t}\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\t@media screen and (max-width: 900px) {\n\t\tfont-size: 10pt;\n\t}\n"]);
 
   Career_templateObject5 = function _templateObject5() {
     return data;
@@ -1328,7 +1328,7 @@ function Career_templateObject5() {
 }
 
 function Career_templateObject4() {
-  var data = taggedTemplateLiteral_default()(["\n\t@media screen and (max-width: 767px) {\n\t\tfont-size: 12pt;\n\t}\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\t@media screen and (max-width: 900px) {\n\t\tfont-size: 12pt;\n\t}\n"]);
 
   Career_templateObject4 = function _templateObject4() {
     return data;
@@ -2128,7 +2128,7 @@ function _templateObject20() {
 }
 
 function _templateObject19() {
-  var data = taggedTemplateLiteral_default()(["\n\tmargin: 16px 0;\n\tborder-bottom: solid black 1px;\n\ttext-transform: uppercase;\n"]);
+  var data = taggedTemplateLiteral_default()(["\n\tmargin: 16px 0;\n\tborder-bottom: solid #1f3b4d 1px;\n\ttext-transform: uppercase;\n"]);
 
   _templateObject19 = function _templateObject19() {
     return data;

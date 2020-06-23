@@ -25,13 +25,13 @@ const Icon = styled.div`
 `;
 
 const Title = styled.h3`
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 900px) {
 		font-size: 12pt;
 	}
 `;
 
 const Subtitle = styled.h4`
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 900px) {
 		font-size: 10pt;
 	}
 `;

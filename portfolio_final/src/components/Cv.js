@@ -168,7 +168,7 @@ const Summary = styled.div``;
 
 const Title = styled.h3`
 	margin: 16px 0;
-	border-bottom: solid black 1px;
+	border-bottom: solid #1f3b4d 1px;
 	text-transform: uppercase;
 `;
 
