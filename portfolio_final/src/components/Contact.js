@@ -84,12 +84,18 @@ const Footer = styled.footer`
 	font-size: 11pt;
 `;
 
+const ContactTitle = styled.h1`
+	@media screen and (max-width: 900px) {
+		font-size: 22pt;
+	}
+`;
+
 export class Contact extends Component {
 	render() {
 		return (
 			<BackgroundColor>
 				<Wrapper id="contact" data-aos="fade-in">
-					<h1>Contact</h1>
+					<ContactTitle>Contact</ContactTitle>
 					<CardWrapper>
 						<Card href="mailto:michiel.glibert@gmail.com">
 							<Icon className="fas fa-at"></Icon>

@@ -27,6 +27,7 @@ const TextWrapper = styled.div`
 	padding: 16px;
 	@media screen and (max-width: 1260px) {
 		width: 100%;
+		padding: 0;
 	}
 `;
 
@@ -39,6 +40,21 @@ const SideImage = styled(Img)`
 
 const AboutText = styled.p`
 	font-size: 15pt;
+	@media screen and (max-width: 900px) {
+		font-size: 13pt;
+	}
+`;
+
+const OverMijzelf = styled.h1`
+	@media screen and (max-width: 900px) {
+		font-size: 22pt;
+	}
+`;
+
+const Hi = styled.h3`
+	@media screen and (max-width: 900px) {
+		font-size: 18pt;
+	}
 `;
 
 export class About extends Component {
@@ -49,8 +65,8 @@ export class About extends Component {
 					<SideImage src={laptop} />
 				</ImgWrapper>
 				<TextWrapper>
-					<h1>Over mijzelf</h1>
-					<h3>Hi! </h3>
+					<OverMijzelf>Over mijzelf</OverMijzelf>
+					<Hi>Hi! </Hi>
 					<AboutText>
 						Ik ben Michiel, geboren in Gent en getogen in Evergem. Al van kleins
 						af aan ben ik geïnspireerd door computers. Op jonge leeftijd schreef

@@ -49,28 +49,6 @@ body {
 p {
 	font-size: 14pt;
 }
-
-@media screen and (max-width: 767px) {
-	h1 {
-		font-size: 24pt;
-	}
-	h2 {
-		font-size: 22pt;
-	}
-
-	h3 {
-		font-size: 16pt;
-	}
-
-	h4 {
-		font-size: 14pt;
-	}
-
-	p {
-		font-size: 12pt;
-	}
-}
-
 .vertical-timeline-element {
 	position: relative;
 	margin: 2em 0;
@@ -531,5 +509,26 @@ p {
 	.vertical-timeline.vertical-timeline--two-columns:before {
 		left: 50%;
 		margin-left: -2px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	h1 {
+		font-size: 24pt;
+	}
+	h2 {
+		font-size: 22pt;
+	}
+
+	h3 {
+		font-size: 16pt;
+	}
+
+	h4 {
+		font-size: 14pt;
+	}
+
+	p {
+		font-size: 13pt;
 	}
 }

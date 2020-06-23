@@ -163,7 +163,7 @@ const BodyWrapper = styled.div`
 const Summary = styled.div``;
 
 const Title = styled.h3`
-	margin: 8px 0;
+	margin: 8px 0 16px 0;
 	border-bottom: solid black 1px;
 	text-transform: uppercase;
 `;
@@ -384,7 +384,7 @@ export class Cv extends Component {
 									<ProgressBarStyled variant="info" now={85} />
 								</Skill>
 								<Skill>
-									<SkillName>Typescript/Java/C++/C#</SkillName>
+									<SkillName>Java/C++/C#/TS/Python</SkillName>
 									<ProgressBarStyled variant="info" now={85} />
 								</Skill>
 
@@ -410,7 +410,14 @@ export class Cv extends Component {
 									<ProgressBarStyled variant="info" now={55} />
 								</Skill>
 
-								<br />
+								<Subtitle>Verder nog</Subtitle>
+								<Tag>Git</Tag>
+								<Tag>Bash</Tag>
+								<Tag>Perl</Tag>
+								<Tag>Assembly</Tag>
+								<Tag>AWS</Tag>
+								<Tag>RDF</Tag>
+								<Tag>Blockchain</Tag>
 								<Title>Talen</Title>
 								<SkillName>
 									<b>Nederlands</b> (Moedertaal)
@@ -470,7 +477,7 @@ export class Cv extends Component {
 									<Bedrijf>Universiteit Gent</Bedrijf>
 									<Periode>2018-2019</Periode>
 									<Beschrijving>
-										In 2018 heb ik de keuze gemaakt om als vervolg op mijn
+										In 2018 had ik de keuze gemaakt om als vervolg op mijn
 										hogeschool opleiding een schakelprogramma te starten aan de
 										Universiteit Gent. Ik wou graag mijn kennis nog verder
 										uitbreiden om zo, naast de hands-on ervaring die ik heb
@@ -485,8 +492,8 @@ export class Cv extends Component {
 									<Bedrijf>Hogeschool Gent</Bedrijf>
 									<Periode>2015-2018</Periode>
 									<Beschrijving>
-										In 2015 heb ik de keuze gemaakt om mijn carrière te starten
-										als informaticus door de opleiding Toegepaste Informatica te
+										In 2015 had ik de keuze gemaakt om mijn carrière te starten
+										als informaticus door de opleiding toegepaste informatica te
 										volgen. Deze opleiding heeft van mijn interesse,
 										informatica, mijn vakgebied gemaakt door het grote aanbood
 										aan praktische opleidingsonderdelen. Om deze opleiding met

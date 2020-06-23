@@ -26,6 +26,9 @@ const TitleWrapper = styled.div`
 const Title = styled.h1`
 	flex-grow: 1;
 	text-align: center;
+	@media screen and (max-width: 900px) {
+		font-size: 22pt;
+	}
 `;
 
 const IconWrapper = styled.i`
@@ -46,6 +49,7 @@ const ProjectWrapper = styled.div`
 	min-height: 450px;
 	@media screen and (max-width: 1200px) {
 		flex-direction: column-reverse;
+		padding: 0;
 	}
 `;
 
@@ -54,15 +58,23 @@ const ProjectContent = styled.div`
 	padding: 16px;
 	@media screen and (max-width: 1200px) {
 		width: 100%;
+		padding: 0;
 	}
 `;
 
 const ProjectTitle = styled.h2`
 	margin-top: 0;
+
+	@media screen and (max-width: 900px) {
+		font-size: 18pt;
+	}
 `;
 
 const ProjectDescription = styled.div`
 	color: #333333;
+	@media screen and (max-width: 900px) {
+		font-size: 13pt;
+	}
 `;
 
 const ProjectImageWrapper = styled.div`
