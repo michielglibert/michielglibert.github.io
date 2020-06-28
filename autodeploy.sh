@@ -7,7 +7,7 @@ rm -rf !(CNAME|.git|old_portfolio|portfolio_final|autodeploy.sh|.|..)
 cd portfolio_final
 yarn build
 cd ..
-cp dist/* .
+cp -R dist/. .
 git add .
 git commit -m "$1"
 git push
