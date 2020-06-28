@@ -100,12 +100,12 @@ export class About extends Component {
 					<AboutText>
 						Sociaal contact is voor mij zeer belangrijk, ook tijdens mijn job.
 						Zelfstandig werken kan ik zeker, maar ik heb niks liever dan een
-						goede groepsfeer! Uit teamwork haal ik enorm veel motivatie en dat
+						goede groepssfeer! Uit teamwork haal ik enorm veel motivatie en dat
 						geeft mijn productiviteit een grote boost.
 					</AboutText>
 					<AboutText>
 						Verder ben ik niet alleen een gepassioneerde IT'er, maar ook gewoon
-						een aangename persoon. Hoewel ik er kan van genieten om wat vitamine
+						een aangenaam persoon. Hoewel ik er kan van genieten om wat vitamine
 						D op te doen in mijn tuin, geniet ik er nog meer van om een stapje
 						in de wereld te zetten. De kans is daarom ook groot dat je mij in
 						Evergem of Gent eens tegen het lijf loopt 😎
