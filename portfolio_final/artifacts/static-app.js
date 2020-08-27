@@ -1413,7 +1413,9 @@ var Career_Career = /*#__PURE__*/function (_Component) {
         }))
       }, /*#__PURE__*/external_react_default.a.createElement(Career_Title, {
         className: "vertical-timeline-element-title"
-      }, "Open voor opportuniteiten"), /*#__PURE__*/external_react_default.a.createElement("p", null, "Ik ben momenteel opzoek naar een job in de IT, bij voorkeur in web en mobile development")), /*#__PURE__*/external_react_default.a.createElement(VerticalTimeline_VerticalTimelineElement, {
+      }, "WeGroup"), /*#__PURE__*/external_react_default.a.createElement(Subtitle, {
+        className: "vertical-timeline-element-subtitle"
+      }, "Front-End Engineer")), /*#__PURE__*/external_react_default.a.createElement(VerticalTimeline_VerticalTimelineElement, {
         className: "vertical-timeline-element--education",
         date: "2019 - 2020",
         iconStyle: {

@@ -54,12 +54,11 @@ export class Career extends Component {
 						}
 					>
 						<Title className="vertical-timeline-element-title">
-							Open voor opportuniteiten
+							WeGroup
 						</Title>
-						<p>
-							Ik ben momenteel opzoek naar een job in de IT, bij voorkeur in web
-							en mobile development
-						</p>
+						<Subtitle className="vertical-timeline-element-subtitle">
+							Front-End Engineer
+						</Subtitle>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
 						className="vertical-timeline-element--education"
