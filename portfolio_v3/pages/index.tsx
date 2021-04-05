@@ -5,15 +5,7 @@ import theme from "./theme";
 
 import Intro from "./components/Intro";
 
-interface Props {
-  allPostsData: {
-    date: string;
-    title: string;
-    id: string;
-  }[];
-}
-
-const Home: React.FC<Props> = ({ allPostsData }) => {
+const Home: React.FC = () => {
   return (
     <ChakraProvider theme={theme}>
       <Intro />
