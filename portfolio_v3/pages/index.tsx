@@ -1,5 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
+import { ChakraProvider } from "@chakra-ui/react";
+import theme from "./theme";
+
+import Intro from "./components/Intro";
 
 interface Props {
   allPostsData: {
@@ -10,7 +14,11 @@ interface Props {
 }
 
 const Home: React.FC<Props> = ({ allPostsData }) => {
-  return <div>Hello</div>;
+  return (
+    <ChakraProvider theme={theme}>
+      <Intro />
+    </ChakraProvider>
+  );
 };
 
 export default Home;
