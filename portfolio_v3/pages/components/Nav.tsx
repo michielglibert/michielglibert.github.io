@@ -4,7 +4,13 @@ import React from "react";
 
 const Nav: React.FC = ({ ...otherProps }) => {
   return (
-    <HStack fontSize="lg" spacing={16} {...otherProps}>
+    <HStack
+      fontSize="lg"
+      spacing={16}
+      position="absolute"
+      top="8"
+      {...otherProps}
+    >
       <Link>Over mijzelf</Link>
       <Link>Carriere</Link>
       <Link>Projecten</Link>
