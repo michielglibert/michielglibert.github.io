@@ -6,7 +6,9 @@ const theme = extendTheme({
     body: "Manrope",
   },
   colors: {
-    blue: "#007bff",
+    blue: {
+      500: "#007bff",
+    },
   },
 });
 

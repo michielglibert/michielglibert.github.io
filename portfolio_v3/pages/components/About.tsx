@@ -16,7 +16,7 @@ const About = () => {
       <HStack
         spacing={{ base: "0", xl: "8" }}
         justifyContent="center"
-        m={{ base: "6", md: "9", xl: "12" }}
+        m={["6", "9", "12"]}
         maxWidth="5xl"
       >
         <Box width="8xl" display={{ base: "none", xl: "block" }}>
@@ -39,13 +39,17 @@ const About = () => {
             ik zelf mijn eigen eenvoudige programma's in Java. Dit heeft er toe
             geleid dat ik in mijn verdere leven voor de opleiding Toegepaste
             Informatica heb gekozen aan{" "}
-            <Link href="https://www.hogent.be/" target="_blank" color="blue">
+            <Link
+              href="https://www.hogent.be/"
+              target="_blank"
+              color="blue.500"
+            >
               Hogeschool Gent
             </Link>
             . Tijdens deze opleiding heb ik enorm veel praktijkervaring
             opgedaan. Na 3 jaar heb ik deze opleiding met succes kunnen afronden
             waarbij ik de laatste 14 weken stage heb gelopen bij{" "}
-            <Link href="https://kayzr.com/" target="_blank" color="blue">
+            <Link href="https://kayzr.com/" target="_blank" color="blue.500">
               Kayzr
             </Link>{" "}
             als Full Stack Developer.
@@ -56,7 +60,7 @@ const About = () => {
             motivatie om verder te studeren. Dit heeft ertoe geleid dat ik ben
             begonnen aan een schakelprogramma naar Industrieel Ingenieur:
             Informatica aan de{" "}
-            <Link href="https://www.ugent.be/" target="_blank" color="blue">
+            <Link href="https://www.ugent.be/" target="_blank" color="blue.500">
               Universiteit Gent
             </Link>
             . Net als mijn bachelor opleiding heb ik mijn master opleiding met
@@ -70,7 +74,11 @@ const About = () => {
             goede groepssfeer! Uit teamwork haal ik enorm veel motivatie en dat
             geeft mijn productiviteit een grote boost. Mijn keuze voor mijn
             huidige job bij{" "}
-            <Link href="https://www.wegroup.be/" target="_blank" color="blue">
+            <Link
+              href="https://www.wegroup.be/"
+              target="_blank"
+              color="blue.500"
+            >
               WeGroup
             </Link>{" "}
             was dan ook heel snel gemaakt. Daar ben ik momenteel als de slag als

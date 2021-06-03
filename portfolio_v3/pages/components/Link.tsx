@@ -8,7 +8,7 @@ interface Props {
 
 const Link: React.FC<Props> = ({ href, children, ...rest }) => {
   return (
-    <Text textAlign="center" fontSize="xl" color="blue" fontWeight="600">
+    <Text textAlign="center" fontSize="xl" color="blue.500" fontWeight="600">
       <NextLink href={href} {...rest}>
         {children}
       </NextLink>

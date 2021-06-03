@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 
 // Components
 import { Center, Heading, Text } from "@chakra-ui/layout";
@@ -10,7 +11,6 @@ import {
   faBriefcase,
   faGraduationCap,
 } from "@fortawesome/free-solid-svg-icons";
-import styled from "styled-components";
 
 const Career = () => {
   return (
