@@ -6,6 +6,7 @@ import "../node_modules/aos/dist/aos.css";
 
 import Intro from "./components/Intro";
 import About from "./components/About";
+import Career from "./components/Career";
 
 const Home: React.FC = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const Home: React.FC = () => {
     <ChakraProvider theme={theme}>
       <Intro />
       <About />
+      <Career />
     </ChakraProvider>
   );
 };

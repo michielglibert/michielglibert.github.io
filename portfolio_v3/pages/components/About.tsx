@@ -7,6 +7,7 @@ import {
   HStack,
   Box,
   Center,
+  Link,
 } from "@chakra-ui/react";
 
 const About = () => {
@@ -33,35 +34,42 @@ const About = () => {
             ik zelf mijn eigen eenvoudige programma's in Java. Dit heeft er toe
             geleid dat ik in mijn verdere leven voor de opleiding Toegepaste
             Informatica heb gekozen aan{" "}
-            <a href="https://www.hogent.be/" target="_blank">
+            <Link href="https://www.hogent.be/" target="_blank" color="blue">
               Hogeschool Gent
-            </a>
+            </Link>
             . Tijdens deze opleiding heb ik enorm veel praktijkervaring
-            opgedaan. Na 3 jaar heb ik deze opleiding met succes kunnen
-            afronden. De laatste 14 weken van mijn opleiding heb ik een stage
-            gevolgd bij{" "}
-            <a href="https://kayzr.com/" target="_blank">
+            opgedaan. Na 3 jaar heb ik deze opleiding met succes kunnen afronden
+            waarbij ik de laatste 14 weken stage heb gelopen bij{" "}
+            <Link href="https://kayzr.com/" target="_blank" color="blue">
               Kayzr
-            </a>{" "}
-            waar ik aan de slag ging als Full Stack Developer.
+            </Link>{" "}
+            als Full Stack Developer.
           </Text>
           <Text fontSize="lg">
-            Na mijn opleiding heb ik toch gekozen om nog niet te gaan werken. Ik
-            had het gevoel dat ik nog meer capaciteiten had en ik had daarnaast
-            nog de motivatie om verder te studeren. Dit heeft ertoe geleid dat
-            ik ben begonnen aan een schakelprogramma naar Industrieel Ingenieur:
-            Informatica aan{" "}
-            <a href="https://www.ugent.be/" target="_blank">
+            Na mijn opleiding heb ik gekozen om nog niet te gaan werken. Ik had
+            het gevoel dat ik nog meer capaciteiten had en had daarnaast nog de
+            motivatie om verder te studeren. Dit heeft ertoe geleid dat ik ben
+            begonnen aan een schakelprogramma naar Industrieel Ingenieur:
+            Informatica aan de{" "}
+            <Link href="https://www.ugent.be/" target="_blank" color="blue">
               Universiteit Gent
-            </a>
-            . Momenteel zit ik in mijn masterjaar en als alles goed gaat ben ik
-            vanaf juli officieel afgestudeerd 🎓
+            </Link>
+            . Net als mijn bachelor opleiding heb ik mijn master opleiding met
+            succes kunnen afronden. Daardoor ben ik nu officieel Master in de
+            industriële wetenschappen: informatica, behaald met onderscheiding.
+            🎓
           </Text>
           <Text fontSize="lg">
             Sociaal contact is voor mij zeer belangrijk, ook tijdens mijn job.
             Zelfstandig werken kan ik zeker, maar ik heb niks liever dan een
             goede groepssfeer! Uit teamwork haal ik enorm veel motivatie en dat
-            geeft mijn productiviteit een grote boost.
+            geeft mijn productiviteit een grote boost. Mijn keuze voor mijn
+            huidige job bij{" "}
+            <Link href="https://www.wegroup.be/" target="_blank" color="blue">
+              WeGroup
+            </Link>{" "}
+            was dan ook heel snel gemaakt. Daar ben ik momenteel als de slag als
+            Front-End engineer.
           </Text>
           <Text fontSize="lg">
             Verder ben ik niet alleen een gepassioneerde IT'er, maar ook gewoon
