@@ -13,8 +13,13 @@ import {
 const About = () => {
   return (
     <Center data-aos="fade" id="about">
-      <HStack spacing="8" justifyContent="center" m="12" width="5xl">
-        <Box width="8xl">
+      <HStack
+        spacing={{ base: "0", xl: "8" }}
+        justifyContent="center"
+        m={{ base: "6", md: "9", xl: "12" }}
+        maxWidth="5xl"
+      >
+        <Box width="8xl" display={{ base: "none", xl: "block" }}>
           <Image
             src="/images/lappy.jpg"
             objectFit="cover"
